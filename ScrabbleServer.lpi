@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <UseXPManifest Value="True"/>
+    </General>
+    <VersionInfo>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <Units Count="105">
+      <Unit0>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="854"/>
+        <CursorPos X="3" Y="872"/>
+        <FoldState Value=" T3p50f034Q"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="6">
+          <Item0 X="28" Y="370" ID="3"/>
+          <Item1 X="36" Y="431" ID="4"/>
+          <Item2 X="32" Y="719" ID="5"/>
+          <Item3 X="30" Y="785" ID="6"/>
+          <Item4 X="39" Y="86" ID="2"/>
+          <Item5 X="26" Y="316" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ScrabbleServer.pas"/>
+        <TopLine Value="201"/>
+        <CursorPos Y="239"/>
+        <UsageCount Value="8"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="utcpnetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utcpnetwork"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="75"/>
+        <CursorPos X="96" Y="43"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-base/src/custapp.pp"/>
+        <UsageCount Value="8"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/local/bin/Lazarus/lcl/lclintf.pas"/>
+        <TopLine Value="37"/>
+        <CursorPos X="55" Y="50"/>
+        <UsageCount Value="8"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Synapse/blcksock.pas"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="utcpclient.pas"/>
+        <TopLine Value="105"/>
+        <CursorPos X="18" Y="53"/>
+        <UsageCount Value="11"/>
+        <Bookmarks Count="1">
+          <Item0 X="18" Y="264" ID="1"/>
+        </Bookmarks>
+      </Unit6>
+      <Unit7>
+        <Filename Value="utcptypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utcptypes"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="5" Y="41"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="utcpserver.pas"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="28"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ucustomtcpserver.pas"/>
+        <TopLine Value="113"/>
+        <CursorPos X="68" Y="114"/>
+        <UsageCount Value="28"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-xml/src/xmlread.pp"/>
+        <CursorPos Y="1524"/>
+        <FoldState Value=" T5O011 T8UIBC po8=MN3 T9V24O pnE=M2]UDk1D44 T4sB07% p/f%Q0H\ P#PikT0 T7sC01k pjHixb04W PiA+I]P2sE04]o@8%O0G]o'RikV]P1sR43]PwH)a48]9,I/N4Bc Po8sb48"/>
+        <UsageCount Value="1"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-xml/src/dom.pp"/>
+        <TopLine Value="1059"/>
+        <CursorPos X="3" Y="1061"/>
+        <UsageCount Value="1"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/local/src/fpc/rtl/inc/objpash.inc"/>
+        <TopLine Value="80"/>
+        <CursorPos Y="103"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="621"/>
+        <CursorPos X="14" Y="636"/>
+        <UsageCount Value="12"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/classes/streams.inc"/>
+        <TopLine Value="617"/>
+        <CursorPos X="17" Y="617"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-xml/src/xmlwrite.pp"/>
+        <CursorPos X="60" Y="26"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-json/src/fpjson.pp"/>
+        <TopLine Value="253"/>
+        <CursorPos X="33" Y="274"/>
+        <UsageCount Value="2"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-json/src/jsonparser.pp"/>
+        <TopLine Value="4"/>
+        <CursorPos X="35" Y="22"/>
+        <UsageCount Value="8"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-json/src/jsonscanner.pp"/>
+        <TopLine Value="37"/>
+        <UsageCount Value="8"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="/usr/local/src/fpc/rtl/inc/systemh.inc"/>
+        <TopLine Value="279"/>
+        <CursorPos X="3" Y="294"/>
+        <UsageCount Value="9"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-base/src/contnrs.pp"/>
+        <TopLine Value="1840"/>
+        <CursorPos X="3" Y="1844"/>
+        <UsageCount Value="8"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/classes.pp"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/keyboard.pp"/>
+        <UsageCount Value="8"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="/usr/local/src/fpc/packages/fcl-base/src/inifiles.pp"/>
+        <TopLine Value="119"/>
+        <CursorPos X="26" Y="153"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/sysutils.pp"/>
+        <TopLine Value="13"/>
+        <CursorPos X="4" Y="38"/>
+        <UsageCount Value="6"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/sysutilh.inc"/>
+        <TopLine Value="213"/>
+        <CursorPos X="13" Y="228"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/classes/stringl.inc"/>
+        <TopLine Value="1161"/>
+        <CursorPos X="3" Y="1166"/>
+        <UsageCount Value="6"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/objpas.pp"/>
+        <TopLine Value="23"/>
+        <CursorPos X="22" Y="28"/>
+        <UsageCount Value="3"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/filutilh.inc"/>
+        <TopLine Value="67"/>
+        <CursorPos X="12" Y="84"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/datih.inc"/>
+        <TopLine Value="105"/>
+        <CursorPos X="18" Y="120"/>
+        <UsageCount Value="9"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/sysstrh.inc"/>
+        <TopLine Value="214"/>
+        <CursorPos X="16" Y="237"/>
+        <UsageCount Value="6"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/sysstr.inc"/>
+        <TopLine Value="2682"/>
+        <CursorPos X="14" Y="2682"/>
+        <UsageCount Value="6"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/sysinth.inc"/>
+        <TopLine Value="73"/>
+        <CursorPos X="3" Y="102"/>
+        <UsageCount Value="9"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/clocale.pp"/>
+        <CursorPos X="43" Y="21"/>
+        <UsageCount Value="6"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/unix.pp"/>
+        <UsageCount Value="6"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="/usr/local/src/fpc/rtl/linux/system.pp"/>
+        <CursorPos X="55" Y="29"/>
+        <UsageCount Value="6"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/sysunixh.inc"/>
+        <UsageCount Value="6"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="/usr/local/src/fpc/rtl/inc/system.inc"/>
+        <TopLine Value="817"/>
+        <CursorPos X="65" Y="37"/>
+        <UsageCount Value="6"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="/usr/local/src/fpc/compiler/systems.pas"/>
+        <UsageCount Value="6"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="/usr/local/src/fpc/rtl/inc/system.fpd"/>
+        <TopLine Value="21"/>
+        <UsageCount Value="6"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="/usr/local/src/fpc/rtl/inc/lstrings.pp"/>
+        <CursorPos Y="85"/>
+        <UsageCount Value="6"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="/usr/local/bin/Lazarus/components/opengl/glqtcontext.pas"/>
+        <TopLine Value="136"/>
+        <CursorPos X="15" Y="150"/>
+        <UsageCount Value="6"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="Synapse/ssfpc.pas"/>
+        <TopLine Value="281"/>
+        <CursorPos X="3" Y="285"/>
+        <UsageCount Value="12"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="/usr/local/src/fpc/rtl/unix/sockets.pp"/>
+        <UsageCount Value="6"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="Synapse/synafpc.pas"/>
+        <UsageCount Value="6"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="/usr/local/src/fpc/rtl/linux/termio.pp"/>
+        <UsageCount Value="6"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="Synapse/synaip.pas"/>
+        <TopLine Value="43"/>
+        <CursorPos X="16" Y="65"/>
+        <UsageCount Value="6"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="Synapse/synautil.pas"/>
+        <UsageCount Value="6"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/classes/lists.inc"/>
+        <TopLine Value="854"/>
+        <CursorPos X="22" Y="856"/>
+        <UsageCount Value="8"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="Info/lazsolutions/Core/LSUtils.pas"/>
+        <TopLine Value="116"/>
+        <CursorPos Y="136"/>
+        <UsageCount Value="7"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/dateutil.inc"/>
+        <TopLine Value="247"/>
+        <CursorPos X="10" Y="262"/>
+        <UsageCount Value="9"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/sysutils/sysutils.inc"/>
+        <TopLine Value="612"/>
+        <CursorPos X="37" Y="622"/>
+        <UsageCount Value="9"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="/usr/local/src/fpc/rtl/linux/suuid.inc"/>
+        <TopLine Value="50"/>
+        <CursorPos Y="65"/>
+        <UsageCount Value="9"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="/usr/local/src/fpc/packages/uuid/src/macuuid.pp"/>
+        <TopLine Value="99"/>
+        <CursorPos X="14" Y="107"/>
+        <UsageCount Value="9"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="/usr/local/src/fpc/rtl/inc/socketsh.inc"/>
+        <TopLine Value="146"/>
+        <CursorPos X="11" Y="161"/>
+        <UsageCount Value="9"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="ulanguage.pas"/>
+        <TopLine Value="293"/>
+        <CursorPos X="67" Y="311"/>
+        <UsageCount Value="10"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="/usr/local/src/fpc/rtl/objpas/fgl.pp"/>
+        <TopLine Value="97"/>
+        <CursorPos X="11" Y="106"/>
+        <UsageCount Value="11"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="/usr/local/src/fpc_2-4-4/rtl/objpas/strutils.pp"/>
+        <TopLine Value="218"/>
+        <CursorPos X="21" Y="252"/>
+        <UsageCount Value="10"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="/usr/local/src/fpc_2-4-4/rtl/unix/sysutils.pp"/>
+        <TopLine Value="98"/>
+        <CursorPos X="32" Y="98"/>
+        <UsageCount Value="10"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="/usr/local/bin/Lazarus/lcl/lclproc.pas"/>
+        <UsageCount Value="10"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/sqldb/sqldb.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="85"/>
+        <UsageCount Value="11"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/base/db.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1479"/>
+        <CursorPos X="15" Y="1496"/>
+        <UsageCount Value="11"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/math.pp"/>
+        <TopLine Value="523"/>
+        <CursorPos X="4" Y="543"/>
+        <UsageCount Value="10"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/base/bufdataset.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="520"/>
+        <CursorPos X="3" Y="397"/>
+        <UsageCount Value="10"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="ScrabbleServer.lpr.bak"/>
+        <TopLine Value="396"/>
+        <CursorPos X="5" Y="879"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/datih.inc"/>
+        <TopLine Value="101"/>
+        <CursorPos X="24" Y="120"/>
+        <UsageCount Value="10"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/sysstrh.inc"/>
+        <TopLine Value="96"/>
+        <CursorPos X="18" Y="115"/>
+        <UsageCount Value="10"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="/usr/lib/fpc/src/rtl/unix/crt.pp"/>
+        <TopLine Value="32"/>
+        <CursorPos X="37" Y="65"/>
+        <UsageCount Value="10"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/inifiles.pp"/>
+        <TopLine Value="20"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="10"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/objpas.pp"/>
+        <TopLine Value="67"/>
+        <CursorPos X="42" Y="84"/>
+        <UsageCount Value="10"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/dateutils.pp"/>
+        <UsageCount Value="10"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/filutilh.inc"/>
+        <TopLine Value="73"/>
+        <CursorPos X="10" Y="101"/>
+        <UsageCount Value="10"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="/usr/lib/fpc/src/packages/syslog/examples/testlog.pp"/>
+        <CursorPos X="63" Y="16"/>
+        <UsageCount Value="10"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="/usr/lib/fpc/src/packages/syslog/src/systemlog.pp"/>
+        <TopLine Value="13"/>
+        <CursorPos X="13" Y="133"/>
+        <UsageCount Value="10"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="/usr/lib/fpc/src/packages/syslog/fpmake.pp"/>
+        <UsageCount Value="10"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/eventlog.pp"/>
+        <TopLine Value="7"/>
+        <CursorPos X="23" Y="26"/>
+        <UsageCount Value="10"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-base/src/unix/eventlog.inc"/>
+        <UsageCount Value="10"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/osutilsh.inc"/>
+        <TopLine Value="21"/>
+        <CursorPos X="42" Y="56"/>
+        <UsageCount Value="10"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="ScrabbleServer_o.lpr"/>
+        <TopLine Value="1043"/>
+        <CursorPos Y="1073"/>
+        <UsageCount Value="13"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="utcpnetwork_o.pas"/>
+        <TopLine Value="81"/>
+        <CursorPos X="58" Y="131"/>
+        <UsageCount Value="14"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="1583"/>
+        <CursorPos X="17" Y="1602"/>
+        <UsageCount Value="11"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/lists.inc"/>
+        <TopLine Value="699"/>
+        <CursorPos X="3" Y="701"/>
+        <UsageCount Value="10"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="/usr/lib/fpc/src/rtl/unix/keyboard.pp"/>
+        <TopLine Value="1558"/>
+        <CursorPos X="3" Y="1599"/>
+        <UsageCount Value="10"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/strutils.pp"/>
+        <TopLine Value="68"/>
+        <CursorPos X="16" Y="97"/>
+        <UsageCount Value="10"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/sysunih.inc"/>
+        <UsageCount Value="10"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/sysutils/sysuni.inc"/>
+        <UsageCount Value="10"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="ScrabbleServer_org.lpr"/>
+        <TopLine Value="874"/>
+        <CursorPos X="4" Y="870"/>
+        <UsageCount Value="11"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="/usr/lib/fpc/src/rtl/unix/sysutils.pp"/>
+        <TopLine Value="1136"/>
+        <CursorPos X="24" Y="1156"/>
+        <UsageCount Value="10"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="uthreadstringlist.pas"/>
+        <TopLine Value="84"/>
+        <CursorPos X="60" Y="108"/>
+        <UsageCount Value="11"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="umain.pas"/>
+        <TopLine Value="284"/>
+        <CursorPos X="26" Y="318"/>
+        <UsageCount Value="11"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="mn_nw.inc"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="589"/>
+        <FoldState Value=" T3P0#jct"/>
+        <UsageCount Value="11"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="/usr/lib/Lazarus/lcl/include/winapih.inc"/>
+        <TopLine Value="193"/>
+        <CursorPos X="37" Y="213"/>
+        <UsageCount Value="10"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="Synapse/smtpsend.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="205"/>
+        <CursorPos X="10" Y="229"/>
+        <UsageCount Value="10"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/objpash.inc"/>
+        <TopLine Value="179"/>
+        <CursorPos X="21" Y="201"/>
+        <UsageCount Value="10"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-process/src/process.pp"/>
+        <UsageCount Value="10"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/base/database.inc"/>
+        <TopLine Value="474"/>
+        <CursorPos X="3" Y="476"/>
+        <UsageCount Value="10"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/sqldb/mysql/mysqlconn.inc"/>
+        <TopLine Value="122"/>
+        <CursorPos X="19" Y="153"/>
+        <UsageCount Value="11"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="/usr/lib/fpc/src/rtl/objpas/classes/classes.inc"/>
+        <TopLine Value="113"/>
+        <CursorPos X="3" Y="115"/>
+        <UsageCount Value="10"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="/usr/local/bin/lazarus/components/synapse/synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="196"/>
+        <CursorPos X="34" Y="214"/>
+        <UsageCount Value="10"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="/usr/lib/fpc/src/rtl/inc/ctypes.pp"/>
+        <TopLine Value="70"/>
+        <CursorPos X="49" Y="102"/>
+        <UsageCount Value="10"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="/usr/lib/fpc/src/rtl/unix/tthread.inc"/>
+        <TopLine Value="171"/>
+        <CursorPos X="3" Y="175"/>
+        <UsageCount Value="10"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/sqldb/mysql/mysql55conn.pas"/>
+        <UsageCount Value="10"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/sqldb/mysql/mysql50conn.pas"/>
+        <UsageCount Value="10"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="Synapse/ssl_openssl_lib.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="103"/>
+        <CursorPos X="11" Y="88"/>
+        <UsageCount Value="10"/>
+      </Unit103>
+      <Unit104>
+        <Filename Value="/usr/lib/fpc/src/packages/fcl-db/src/base/dataset.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2283"/>
+        <CursorPos X="3" Y="2289"/>
+        <UsageCount Value="10"/>
+      </Unit104>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1281" Column="11" TopLine="1251"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1282" Column="25" TopLine="1252"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1283" Column="25" TopLine="1253"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1284" Column="25" TopLine="1254"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1291" Column="26" TopLine="1261"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1292" Column="26" TopLine="1262"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1293" Column="26" TopLine="1263"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1294" Column="26" TopLine="1264"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1280" Column="36" TopLine="1265"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="241" Column="17" TopLine="226"/>
+      </Position10>
+      <Position11>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="243" Column="15" TopLine="226"/>
+      </Position11>
+      <Position12>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="229" Column="90" TopLine="216"/>
+      </Position12>
+      <Position13>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1257" Column="53" TopLine="1238"/>
+      </Position13>
+      <Position14>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="53" Column="5" TopLine="49"/>
+      </Position14>
+      <Position15>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1272" Column="22" TopLine="1242"/>
+      </Position15>
+      <Position16>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1345" Column="5" TopLine="1311"/>
+      </Position16>
+      <Position17>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="25" Column="3" TopLine="7"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1329" Column="30" TopLine="1311"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="207" TopLine="193"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1344" Column="5" TopLine="1308"/>
+      </Position20>
+      <Position21>
+        <Filename Value="utcptypes.pas"/>
+        <Caret Line="61" Column="5" TopLine="43"/>
+      </Position21>
+      <Position22>
+        <Filename Value="utcptypes.pas"/>
+        <Caret Line="39" Column="5" TopLine="16"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="1230" Column="71" TopLine="1219"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="5" Column="15"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="872" Column="104" TopLine="857"/>
+      </Position25>
+      <Position26>
+        <Filename Value="utcpnetwork.pas"/>
+        <Caret Line="81" Column="16" TopLine="63"/>
+      </Position26>
+      <Position27>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="867" Column="3" TopLine="836"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="868" Column="2" TopLine="850"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="924" Column="31" TopLine="905"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ScrabbleServer.lpr"/>
+        <Caret Line="945" TopLine="924"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="ScrabbleServer"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="Synapse"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <TargetCPU Value="arm"/>
+      <TargetOS Value="linux"/>
+      <Optimizations>
+        <OptimizationLevel Value="2"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+    </Linking>
+    <Other>
+      <CompilerPath Value="/usr/lib/fpc/2.7.1/ppcrossarm"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

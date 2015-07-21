@@ -1,0 +1,479 @@
+object fmWordSearch: TfmWordSearch
+  Left = 400
+  Height = 376
+  Top = 374
+  Width = 518
+  ActiveControl = edWord
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Word search'
+  ClientHeight = 376
+  ClientWidth = 518
+  FormStyle = fsStayOnTop
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnHide = FormHide
+  OnKeyUp = FormKeyUp
+  OnShow = FormShow
+  ShowHint = True
+  ShowInTaskBar = stNever
+  LCLVersion = '1.5'
+  object gbWord: TGroupBox
+    Left = 8
+    Height = 360
+    Top = 8
+    Width = 247
+    Align = alClient
+    Anchors = [akTop, akLeft, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 8
+    BorderSpacing.Bottom = 8
+    Caption = 'Words'
+    ClientHeight = 341
+    ClientWidth = 243
+    TabOrder = 0
+    object stWordCount: TStaticText
+      AnchorSideLeft.Control = seWordNumber
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = seWordNumber
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Control = gbWord
+      AnchorSideRight.Side = asrBottom
+      Left = 152
+      Height = 15
+      Top = 39
+      Width = 83
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 8
+      BorderSpacing.Right = 8
+      Caption = '0'
+      Color = clDefault
+      ParentColor = False
+      TabOrder = 6
+    end
+    object lbWordMeaning: TLabel
+      AnchorSideLeft.Control = gbWord
+      AnchorSideTop.Control = cbCategory
+      AnchorSideTop.Side = asrBottom
+      Left = 8
+      Height = 15
+      Top = 101
+      Width = 45
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 16
+      Caption = '&Meaning:'
+      FocusControl = mmWordMeaning
+      ParentColor = False
+    end
+    object seWordNumber: TSpinEdit
+      AnchorSideLeft.Control = lbWordCategory
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = edWord
+      AnchorSideTop.Side = asrBottom
+      Left = 64
+      Height = 21
+      Hint = 'Entry number in dictionary'
+      Top = 36
+      Width = 80
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 7
+      MaxValue = 1
+      OnChange = seWordNumberChange
+      TabOrder = 1
+    end
+    object edWord: TEdit
+      AnchorSideLeft.Control = lbWordCategory
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = gbWord
+      AnchorSideRight.Control = gbWord
+      AnchorSideRight.Side = asrBottom
+      Left = 64
+      Height = 21
+      Hint = 'Search for word in dictionary (white=found, yellow=found, but category is deselected, red = not found)'
+      Top = 8
+      Width = 171
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 8
+      BorderSpacing.Right = 8
+      OnChange = edWordChange
+      OnUTF8KeyPress = edUTF8KeyPress
+      TabOrder = 0
+    end
+    object mmWordMeaning: TMemo
+      AnchorSideLeft.Control = gbWord
+      AnchorSideTop.Control = lbWordMeaning
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbWord
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = btnAdd
+      Left = 8
+      Height = 181
+      Hint = 'A word can have a description, translation etc.'
+      Top = 120
+      Width = 227
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      BorderSpacing.Bottom = 4
+      TabOrder = 2
+    end
+    object cbCategory: TComboBox
+      AnchorSideLeft.Control = lbWordCategory
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = seWordNumber
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbWord
+      AnchorSideRight.Side = asrBottom
+      Left = 64
+      Height = 21
+      Hint = 'Each word can be assigned to a category'
+      Top = 64
+      Width = 171
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 7
+      BorderSpacing.Right = 8
+      ItemHeight = 15
+      OnChange = cbCategoryChange
+      Style = csDropDownList
+      TabOrder = 3
+    end
+    object btnAdd: TBitBtn
+      AnchorSideLeft.Control = gbWord
+      AnchorSideBottom.Control = gbWord
+      AnchorSideBottom.Side = asrBottom
+      Left = 8
+      Height = 28
+      Hint = 'Add or change the current word'
+      Top = 305
+      Width = 110
+      Anchors = [akLeft, akBottom]
+      BorderSpacing.Left = 8
+      BorderSpacing.Bottom = 8
+      Caption = '&Add/Change'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFC00FFFFF700806D5EFF7B604BFF7D624DFF806D
+        5EFFFFFFF700FFFFFC00FDFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFB00FFFFF2007C614CFFECCEB5FFECCEB5FF7C61
+        4CFFFFFFF200FFFFFB00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFC00FFFFFB00FFFFF500FFFFED00856346FFEFCFB2FFCBAB8EFF8563
+        46FFFFFFEB00FFFFF500FFFFFB00FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFF800FFFFF200FFFFED00FFFFE6008E6342FFF6D0AEFFD2AC8AFF8E63
+        42FFFFFFE600FFFFED00FFFFF200FFFFF700FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00806D5EFF7C614DFF836248FF8A6343FF8E6342FFD2AC8AFFD4AB8AFF9063
+        41FF8E6342FF876246FF7E624AFF826D5EFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF007C614CFFE6CCB4FFD3B59CFFD4B497FFD5B395FFD4B294FFCFAC8BFFCFA9
+        89FFCCA688FFC6A487FFDCBEA3FF7E614CFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF007C614CFFEED4BCFFEFD2B7FFF2D2B5FFF1CFB2FFEDCFB2FFEFCFB2FFF5CF
+        B1FFF4CEB0FFEFCDB0FFEBCDB2FF7F634BFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00806D5EFF7A624CFF836248FF8A6343FF8A6343FFEDCFB4FFEDCFB4FF8C63
+        43FF8C6342FF856346FF7F634BFF816F5EFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFF700FFFFF200FFFFEB00FFFFE6008A6245FFECCEB5FFECCEB5FF8A62
+        45FFFFFFE600FFFFEB00FFFFF100FFFFF700FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFC00FFFFFB00FFFFF500FFFFED00836248FFEACEB6FFEACEB6FF8362
+        48FFFFFFEB00FFFFF500FFFFF900FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFB00FFFFF2007C614CFFE8CDB8FFE8CDB8FF7C61
+        4CFFFFFFF200FFFFFA00FFFFFF00FFFFFE00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFC00FFFFF700806D5EFF7C614CFF7C614CFF806D
+        5EFFFFFFF700FFFFFC00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+      }
+      OnClick = btnAddClick
+      TabOrder = 4
+    end
+    object btnDelete: TBitBtn
+      AnchorSideRight.Control = gbWord
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = gbWord
+      AnchorSideBottom.Side = asrBottom
+      Left = 125
+      Height = 28
+      Hint = 'Delete the word from dictionary'
+      Top = 305
+      Width = 110
+      Anchors = [akRight, akBottom]
+      BorderSpacing.Right = 8
+      BorderSpacing.Bottom = 8
+      Caption = '&Delete'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00806D5EFF7C614CFF806249FF816249FF816249FF816249FF816249FF8362
+        48FF816348FF816249FF7C614CFF806D5EFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF007C614CFFE6CCB4FFD1B69CFFD2B59AFFD1B398FFD2B295FFCBAB8EFFCBA9
+        8CFFC8A689FFC6A389FFDCBDA4FF7E614CFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF007C614CFFEED4BCFFEDD2B8FFEFD2B7FFEDCFB4FFEFCFB2FFEECEB1FFF1CF
+        B2FFF0CEB1FFEFCCB2FFEBCCB3FF7E614CFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00806D5EFF7C614CFF806249FF816249FF816249FF826449FF816348FF8362
+        48FF836248FF84624AFF7E614CFF806D5EFFFFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+      }
+      OnClick = btnDeleteClick
+      TabOrder = 5
+    end
+    object lbWordNumber: TLabel
+      AnchorSideLeft.Control = gbWord
+      AnchorSideTop.Control = seWordNumber
+      AnchorSideTop.Side = asrCenter
+      Left = 8
+      Height = 15
+      Top = 39
+      Width = 42
+      BorderSpacing.Left = 8
+      Caption = '&Number:'
+      FocusControl = seWordNumber
+      ParentColor = False
+    end
+    object lbWordCategory: TLabel
+      AnchorSideLeft.Control = gbWord
+      AnchorSideTop.Control = cbCategory
+      AnchorSideTop.Side = asrCenter
+      Left = 8
+      Height = 15
+      Top = 67
+      Width = 48
+      BorderSpacing.Left = 8
+      Caption = '&Category:'
+      FocusControl = cbCategory
+      ParentColor = False
+    end
+    object lbWord: TLabel
+      AnchorSideLeft.Control = gbWord
+      AnchorSideTop.Control = edWord
+      AnchorSideTop.Side = asrCenter
+      Left = 8
+      Height = 15
+      Top = 11
+      Width = 30
+      BorderSpacing.Left = 8
+      Caption = 'W&ord:'
+      FocusControl = edWord
+      ParentColor = False
+    end
+  end
+  object gbSearch: TGroupBox
+    Left = 260
+    Height = 360
+    Top = 8
+    Width = 250
+    Align = alRight
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    Caption = 'Search'
+    ClientHeight = 341
+    ClientWidth = 246
+    TabOrder = 1
+    object sbSearch: TSpeedButton
+      AnchorSideTop.Control = edPattern
+      AnchorSideRight.Control = gbSearch
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = edPattern
+      AnchorSideBottom.Side = asrBottom
+      Left = 215
+      Height = 21
+      Top = 8
+      Width = 23
+      Anchors = [akTop, akRight, akBottom]
+      BorderSpacing.Right = 8
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000000000000000000000000000000000000000000
+        0000000000000000000000000002000000040000000500000006000000060000
+        00070000000600000006636363646A6D6CFE6A6D6CFF6A6D6C56000000000000
+        00000000000000000000858A8861858A88B6696E6CF5696E6CFF858A88B6858A
+        8861000000006B6B6B866A6D6CFFCACBCBFFD6D6D6FF6A6D6CFF000000000000
+        0000858A882E686C6AE47D807FDC8F908FE2C2C2C2F2DFDFDFFF898A89D86266
+        64E15D5D5D636B6E6DFFB5B7B7FF888B89FFC7C7C7FD6A6D6CFF00000000858A
+        882E696E6CF7919291E3E9E2DBFFD2B396FFCDA178FECE9F72FFD3B497FFE4DC
+        D5FF686B6AFDB7B8B8FF848785FF727674FD646866E96A6D6C3000000000686C
+        6AE7A8A9A8ECDCCAB9FFCE9F72FFB3855CD0CA9B7076CA9B6FA3AD8059CDCE9F
+        73FFD2CCC5FF929593FE858786F5666968F25357551900000000848987628184
+        82E2E1D9D1FFCE9F72FFCD9C6F98D09E7177D09F7262CE9E7281CF9F7255C797
+        6C7BCE9F72FFE0D9D2FF656967EA7176747E0000000000000000808583C7C4C4
+        C4FBCAA685FCC59469C5CF9D728BCF9F7175D1A0725ED09E7372CF9E744FCF9F
+        7465B98A61BFCBA989FDC8C9C9F8828684C00000000000000000696E6CFADFDF
+        DFFFCDA076FED9B18FB3E6CDB6B5ECD9C7B2E9D3C099DFBEA2A4CF9F715AD09E
+        746CCF9F7382C99A6EFCDBDBDBFF696E6CF900000000000000006B706EFEDBDA
+        D8FFCE9E71FFE6CCB4CBECDBCBCDF0E1D3C6F1E4D7C0F0E2D5E5D1A1786ECF9F
+        737ACF9D728BCE9E71FFE2E2E2FF6B706EFE0000000000000000666B69FFD9DA
+        DAFFBF9066FFE2C6ACF9F1E4D9FBF4E9E0FBF4EBE3FAF3E9E0FFEDDDCEF0D4A7
+        80D7CF9E72E5CAA381FFD8D9D9FF666B69FF00000000000000007A7E7C76A6A8
+        A7FAC4AF9EF9CE9F72FEF1E2D6E7F7EEE7EBF8F2ECF0F5EBE3FCF0E0D1DCDBB8
+        97C2CE9E71FECABAADF9A1A4A3F77D817F6F0000000000000000000000006A6E
+        6CF5DADADAFFC5A68AFACF9F72FEEBD8C7EDF5EBE2EBF3E9DFFCE3C8AEDECE9F
+        72FDC5A88EF9DBDBDBFF696D6BF3000000000000000000000000000000007C81
+        7F356C716FFEDBDBDAFFC1A996F9C5976DF1CFA175FACE9F72FFC29368F1C2AD
+        9BF9DEDEDEFF6B706EFD81858431000000000000000000000000000000000000
+        00007578773E6C6F6DF8CACCCBFEDCDBDAFFD9D6D4FED9D5D1FFDAD8D7FFC9CA
+        CAFE6B6E6CF7787C7A3A00000000000000000000000000000000000000000000
+        00000000000000000000757876A96C706FF56D7170FE6B706EFF6A6F6DF4787C
+        7A97000000000000000000000000000000000000000000000000
+      }
+      OnClick = sbSearchClick
+    end
+    object lbPattern: TLabel
+      AnchorSideLeft.Control = gbSearch
+      AnchorSideTop.Control = edPattern
+      AnchorSideTop.Side = asrCenter
+      Left = 8
+      Height = 15
+      Top = 11
+      Width = 39
+      BorderSpacing.Left = 8
+      Caption = '&Pattern:'
+      FocusControl = edPattern
+      ParentColor = False
+    end
+    object rgSearchType: TRadioGroup
+      AnchorSideLeft.Control = gbSearch
+      AnchorSideTop.Control = edPattern
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbSearch
+      AnchorSideRight.Side = asrBottom
+      Left = 8
+      Height = 111
+      Hint = 'Type of search'
+      Top = 35
+      Width = 230
+      Anchors = [akTop, akLeft, akRight]
+      AutoFill = True
+      AutoSize = True
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 6
+      BorderSpacing.Right = 8
+      Caption = '&Search type'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.TopBottomSpacing = 4
+      ChildSizing.HorizontalSpacing = 4
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 92
+      ClientWidth = 226
+      ItemIndex = 0
+      Items.Strings = (
+        '&Wildcards (?,*)'
+        '&Regular Expression'
+        '&Scrabble-like Variation'
+        '&Anagram'
+      )
+      TabOrder = 0
+    end
+    object edPattern: TEdit
+      AnchorSideLeft.Control = lbPattern
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = gbSearch
+      AnchorSideRight.Control = sbSearch
+      Left = 51
+      Height = 21
+      Hint = 'Pattern to search for'
+      Top = 8
+      Width = 164
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Top = 8
+      OnUTF8KeyPress = edUTF8KeyPress
+      TabOrder = 1
+    end
+    object sgSearchResult: TStringGrid
+      Tag = 1
+      AnchorSideLeft.Control = gbSearch
+      AnchorSideTop.Control = rgSearchType
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbSearch
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = gbSearch
+      AnchorSideBottom.Side = asrBottom
+      Left = 8
+      Height = 183
+      Hint = 'Click on the header to sort either by letters or word length'
+      Top = 150
+      Width = 230
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      BorderSpacing.Bottom = 8
+      ColCount = 1
+      Columns = <      
+        item
+          Title.Caption = 'Words'
+          Width = 198
+        end>
+      DefaultDrawing = False
+      FixedCols = 0
+      Options = [goRowSelect, goThumbTracking, goSmoothScroll]
+      PopupMenu = pmWordSearchCopy
+      RowCount = 1
+      ScrollBars = ssAutoVertical
+      TabOrder = 2
+      TitleStyle = tsNative
+      OnCompareCells = sgSearchResultCompareCells
+      OnDrawCell = sgSearchResultDrawCell
+      OnHeaderClick = sgSearchResultHeaderClick
+      OnResize = sgSearchResultResize
+      OnSelectCell = sgSearchResultSelectCell
+      ColWidths = (
+        198
+      )
+    end
+  end
+  object Splitter: TSplitter
+    Left = 255
+    Height = 376
+    Top = 0
+    Width = 5
+    Align = alRight
+    ResizeAnchor = akRight
+  end
+  object pmWordSearchCopy: TPopupMenu
+    left = 337
+    top = 228
+    object miWordSearchCopy: TMenuItem
+      Caption = 'Copy'
+      ShortCut = 16451
+      OnClick = miWordSearchCopyClick
+    end
+  end
+end

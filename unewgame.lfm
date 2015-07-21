@@ -1,0 +1,337 @@
+object fmNewGame: TfmNewGame
+  Left = 548
+  Height = 370
+  Top = 412
+  Width = 542
+  BorderStyle = bsSizeToolWin
+  Caption = 'New Game'
+  ClientHeight = 370
+  ClientWidth = 542
+  Constraints.MinHeight = 330
+  Constraints.MinWidth = 430
+  KeyPreview = True
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnHide = FormHide
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  Position = poMainFormCenter
+  ShowHint = True
+  LCLVersion = '1.5'
+  object Splitter: TSplitter
+    Left = 251
+    Height = 336
+    Top = 0
+    Width = 5
+  end
+  object gbPlayers: TGroupBox
+    Left = 8
+    Height = 328
+    Hint = 'Select the number of players and give them names. ''Computer'' is used for PC as opponent.'
+    Top = 8
+    Width = 243
+    Align = alLeft
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 8
+    Caption = 'Players'
+    ClientHeight = 309
+    ClientWidth = 239
+    TabOrder = 1
+    object rb1Player: TRadioButton
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = gbPlayers
+      AnchorSideRight.Control = gbPlayers
+      AnchorSideRight.Side = asrBottom
+      Left = 8
+      Height = 21
+      Top = 8
+      Width = 64
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 8
+      BorderSpacing.Right = 8
+      Caption = '1 player'
+      Checked = True
+      OnChange = rbPlayerChange
+      TabOrder = 2
+      TabStop = True
+    end
+    object cbAutoPause: TCheckBox
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideRight.Control = gbPlayers
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = gbPlayers
+      AnchorSideBottom.Side = asrBottom
+      Left = 8
+      Height = 20
+      Hint = 'Enable this option to make sure that your letters are not seen by the opponents'
+      Top = 281
+      Width = 223
+      Anchors = [akLeft, akRight, akBottom]
+      BorderSpacing.Left = 8
+      BorderSpacing.Right = 8
+      BorderSpacing.Bottom = 8
+      Caption = '&Auto pause in local games'
+      TabOrder = 0
+    end
+    object rb2Player: TRadioButton
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = cbPlayer1
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      Left = 8
+      Height = 21
+      Top = 58
+      Width = 64
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 4
+      Caption = '2 player'
+      OnChange = rbPlayerChange
+      TabOrder = 1
+    end
+    object rb3Player: TRadioButton
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = cbPlayer2
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      Left = 8
+      Height = 21
+      Top = 108
+      Width = 64
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 4
+      Caption = '3 player'
+      OnChange = rbPlayerChange
+      TabOrder = 3
+    end
+    object rb4Player: TRadioButton
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = cbPlayer3
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      Left = 8
+      Height = 21
+      Top = 158
+      Width = 64
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 4
+      Caption = '4 player'
+      OnChange = rbPlayerChange
+      TabOrder = 4
+    end
+    object cbPlayer1: TComboBox
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = rb1Player
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      AnchorSideRight.Side = asrBottom
+      Left = 32
+      Height = 21
+      Top = 33
+      Width = 199
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 32
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      ItemHeight = 15
+      ItemIndex = 0
+      Items.Strings = (
+        'ABC'
+      )
+      OnExit = cbPlayerExit
+      TabOrder = 5
+      Text = 'ABC'
+    end
+    object cbPlayer2: TComboBox
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = rb2Player
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      AnchorSideRight.Side = asrBottom
+      Left = 32
+      Height = 21
+      Top = 83
+      Width = 199
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 32
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      Enabled = False
+      ItemHeight = 15
+      OnExit = cbPlayerExit
+      TabOrder = 6
+      Text = 'cbPlayer2'
+    end
+    object cbPlayer3: TComboBox
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = rb3Player
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      AnchorSideRight.Side = asrBottom
+      Left = 32
+      Height = 21
+      Top = 133
+      Width = 199
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 32
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      Enabled = False
+      ItemHeight = 15
+      OnExit = cbPlayerExit
+      TabOrder = 7
+      Text = 'cbPlayer3'
+    end
+    object cbPlayer4: TComboBox
+      AnchorSideLeft.Control = gbPlayers
+      AnchorSideTop.Control = rb4Player
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbPlayers
+      AnchorSideRight.Side = asrBottom
+      Left = 32
+      Height = 21
+      Top = 183
+      Width = 199
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 32
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      Enabled = False
+      ItemHeight = 15
+      OnExit = cbPlayerExit
+      TabOrder = 8
+      Text = 'cbPlayer4'
+    end
+  end
+  object pnBottom: TPanel
+    Left = 0
+    Height = 34
+    Top = 336
+    Width = 542
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 34
+    ClientWidth = 542
+    TabOrder = 2
+    object btnNewGameOK: TButton
+      AnchorSideTop.Control = pnBottom
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Control = pnBottom
+      AnchorSideRight.Side = asrBottom
+      Left = 414
+      Height = 28
+      Hint = 'Start the game'
+      Top = 3
+      Width = 110
+      Anchors = [akTop, akRight]
+      BorderSpacing.Right = 18
+      Caption = '&OK'
+      Default = True
+      ModalResult = 1
+      ParentFont = False
+      TabOrder = 0
+    end
+    object btnNewGameCancel: TButton
+      AnchorSideTop.Control = pnBottom
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Control = btnNewGameOK
+      Left = 296
+      Height = 28
+      Top = 3
+      Width = 110
+      Anchors = [akTop, akRight]
+      BorderSpacing.Right = 8
+      Cancel = True
+      Caption = '&Cancel'
+      ModalResult = 2
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+  object gbConfig: TGroupBox
+    Left = 256
+    Height = 328
+    Hint = 'Summary of game settings'
+    Top = 8
+    Width = 278
+    Align = alClient
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 8
+    Caption = 'Configuration'
+    ClientHeight = 309
+    ClientWidth = 274
+    ParentFont = False
+    TabOrder = 3
+    object cbConfiguration: TComboBox
+      AnchorSideLeft.Control = gbConfig
+      AnchorSideTop.Control = lbConfigPresets
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbConfig
+      AnchorSideRight.Side = asrBottom
+      Left = 8
+      Height = 21
+      Hint = 'Select one of your predefined settings for the game'
+      Top = 25
+      Width = 258
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 2
+      BorderSpacing.Right = 8
+      ItemHeight = 15
+      OnChange = cbConfigurationChange
+      Style = csDropDownList
+      TabOrder = 0
+    end
+    object lbConfigPresets: TLabel
+      AnchorSideLeft.Control = gbConfig
+      AnchorSideTop.Control = gbConfig
+      Left = 8
+      Height = 15
+      Top = 8
+      Width = 39
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 8
+      Caption = 'Presets:'
+      ParentColor = False
+    end
+    object sgPreset: TStringGrid
+      AnchorSideLeft.Control = gbConfig
+      AnchorSideTop.Control = cbConfiguration
+      AnchorSideTop.Side = asrBottom
+      AnchorSideRight.Control = gbConfig
+      AnchorSideRight.Side = asrBottom
+      AnchorSideBottom.Control = gbConfig
+      AnchorSideBottom.Side = asrBottom
+      Left = 8
+      Height = 247
+      Top = 54
+      Width = 258
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 8
+      BorderSpacing.Right = 8
+      BorderSpacing.Bottom = 8
+      BorderStyle = bsNone
+      Color = clForm
+      ColCount = 2
+      Columns = <      
+        item
+          Alignment = taRightJustify
+          Layout = tlTop
+          Title.Caption = 'Key'
+        end      
+        item
+          Title.Caption = 'Value'
+        end>
+      DefaultDrawing = False
+      FixedCols = 0
+      FixedRows = 0
+      Flat = True
+      Options = [goThumbTracking, goSmoothScroll]
+      ScrollBars = ssAutoVertical
+      TabOrder = 1
+      OnDrawCell = sgPresetDrawCell
+      OnResize = sgPresetResize
+    end
+  end
+end

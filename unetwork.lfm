@@ -1,0 +1,660 @@
+object fmNetwork: TfmNetwork
+  Left = 616
+  Height = 347
+  Top = 376
+  Width = 303
+  ActiveControl = btnNetworkOk
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Network'
+  ClientHeight = 347
+  ClientWidth = 303
+  Constraints.MinHeight = 320
+  Constraints.MinWidth = 300
+  KeyPreview = True
+  OnCloseQuery = FormCloseQuery
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  ShowHint = True
+  LCLVersion = '1.5'
+  object btnNetworkOk: TBitBtn
+    AnchorSideTop.Side = asrCenter
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 175
+    Height = 28
+    Hint = 'Connect now'
+    Top = 311
+    Width = 110
+    Anchors = [akRight, akBottom]
+    BorderSpacing.Left = 16
+    BorderSpacing.Right = 18
+    BorderSpacing.Bottom = 8
+    Caption = '&Ok'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 0
+  end
+  object btnNetworkCancel: TBitBtn
+    AnchorSideLeft.Control = Owner
+    AnchorSideRight.Side = asrBottom
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 18
+    Height = 28
+    Hint = 'Abort connection'
+    Top = 311
+    Width = 109
+    Anchors = [akLeft, akRight, akBottom]
+    BorderSpacing.Left = 18
+    BorderSpacing.Right = 16
+    BorderSpacing.Bottom = 8
+    Cancel = True
+    Caption = 'Abbrechen'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 1
+  end
+  object pcConnection: TPageControl
+    AnchorSideLeft.Control = Owner
+    AnchorSideTop.Control = Owner
+    AnchorSideRight.Control = Owner
+    AnchorSideRight.Side = asrCenter
+    AnchorSideBottom.Control = Owner
+    AnchorSideBottom.Side = asrBottom
+    Left = 8
+    Height = 291
+    Hint = 'Select ''Game server'' to play with any other people or ''Direct connection'' if you know your mates'' ip address or hostname.'
+    Top = 8
+    Width = 286
+    ActivePage = tsWAN
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 8
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 48
+    TabIndex = 0
+    TabOrder = 2
+    OnChange = pcConnectionChange
+    object tsWAN: TTabSheet
+      Caption = '&Game server'
+      ClientHeight = 266
+      ClientWidth = 282
+      object cbWanServer: TComboBox
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = lbWanServer
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = tsWAN
+        AnchorSideRight.Side = asrCenter
+        Left = 8
+        Height = 21
+        Hint = 'If more than one game server is available you can choose to which you want to connect'
+        Top = 32
+        Width = 266
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 2
+        BorderSpacing.Right = 8
+        ItemHeight = 15
+        ItemIndex = 0
+        Items.Strings = (
+          'scrabble.game-server.cc'
+        )
+        Style = csDropDownList
+        TabOrder = 0
+        Text = 'scrabble.game-server.cc'
+      end
+      object lbWanServer: TLabel
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = tsWAN
+        AnchorSideRight.Control = tsWAN
+        AnchorSideRight.Side = asrBottom
+        Left = 8
+        Height = 14
+        Top = 16
+        Width = 266
+        Anchors = [akTop, akLeft, akRight]
+        AutoSize = False
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 16
+        BorderSpacing.Right = 8
+        Caption = '&Select the game server you want to connect to:'
+        FocusControl = cbWanServer
+        ParentColor = False
+      end
+      object lbPassword: TLabel
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = edLoginWAN
+        AnchorSideTop.Side = asrBottom
+        Left = 8
+        Height = 15
+        Top = 115
+        Width = 46
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 8
+        Caption = '&Password'
+        FocusControl = edPassword
+        ParentColor = False
+      end
+      object edPassword: TEdit
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = lbPassword
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = tsWAN
+        AnchorSideRight.Side = asrBottom
+        Left = 8
+        Height = 21
+        Hint = 'A simple (no encryption!) password to avoid other players using your choosen nick name'
+        Top = 132
+        Width = 266
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 2
+        BorderSpacing.Right = 8
+        EchoMode = emPassword
+        PasswordChar = '*'
+        TabOrder = 2
+      end
+      object lbLoginWAN: TLabel
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = cbWanServer
+        AnchorSideTop.Side = asrBottom
+        Left = 8
+        Height = 15
+        Top = 69
+        Width = 57
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 16
+        Caption = '&Login name'
+        FocusControl = edLoginWAN
+        ParentColor = False
+      end
+      object edLoginWAN: TEdit
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = lbLoginWAN
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = tsWAN
+        AnchorSideRight.Side = asrBottom
+        Left = 8
+        Height = 21
+        Hint = 'The nick name which identifies you at the game server'
+        Top = 86
+        Width = 266
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 2
+        BorderSpacing.Right = 8
+        TabOrder = 1
+      end
+      object lbEmail: TLabel
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = edPassword
+        AnchorSideTop.Side = asrBottom
+        Left = 8
+        Height = 15
+        Top = 161
+        Width = 28
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 8
+        Caption = '&Email'
+        FocusControl = edEmail
+        ParentColor = False
+      end
+      object edEmail: TEdit
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = lbEmail
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = tsWAN
+        AnchorSideRight.Side = asrBottom
+        Left = 8
+        Height = 21
+        Hint = 'Optionally, provide your email address to receive messages from game server'
+        Top = 178
+        Width = 266
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 2
+        BorderSpacing.Right = 8
+        TabOrder = 3
+      end
+      object cbCountry: TComboBox
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = lbCountry
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = edCity
+        Left = 8
+        Height = 21
+        Hint = 'Optionally, tell other player where you come from'
+        Top = 224
+        Width = 136
+        Anchors = [akTop, akLeft, akRight]
+        AutoComplete = True
+        AutoCompleteText = [cbactEnabled, cbactEndOfLineComplete, cbactSearchAscending]
+        AutoDropDown = True
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 2
+        BorderSpacing.Right = 8
+        ItemHeight = 16
+        ItemIndex = 0
+        Items.Strings = (
+          'Afghanistan'
+          'Albania'
+          'Algeria'
+          'American Samoa'
+          'Ancient Rome'
+          'Andorra'
+          'Angola'
+          'Anguilla'
+          'Antigua and Barbuda'
+          'Argentina'
+          'Armenia'
+          'Aruba'
+          'Australia'
+          'Austria'
+          'Azerbaijan'
+          'Bahrain'
+          'Bangladesh'
+          'Barbados'
+          'Belarus'
+          'Belgium'
+          'Belize'
+          'Benin'
+          'Bermuda'
+          'Bhutan'
+          'Bolivia'
+          'Bosnia and Herzegovina'
+          'Botswana'
+          'Bouvet Island'
+          'Brazil'
+          'British Indian Ocean Territory'
+          'British Virgin Islands'
+          'Brunei Darussalam'
+          'Bulgaria'
+          'Burkina Faso'
+          'Burundi'
+          'Cambodia'
+          'Cameroon'
+          'Canada'
+          'Catalonia'
+          'Cape Verde'
+          'Cayman Islands'
+          'Central African Republic'
+          'Chad'
+          'Chile'
+          'China'
+          'Christmas Island'
+          'Cocos (Keeling) Islands'
+          'Colombia'
+          'Comoros'
+          'Congo'
+          'Cook Islands'
+          'Costa Rica'
+          'Cote D''Ivoire'
+          'Croatia'
+          'Cuba'
+          'Cyprus'
+          'Czech Republic'
+          'Denmark'
+          'Djibouti'
+          'Dominica'
+          'Dominican Republic'
+          'East Timor'
+          'Ecuador'
+          'Egypt'
+          'El Salvador'
+          'England'
+          'Equatorial Guinea'
+          'Eritrea'
+          'Estonia'
+          'Ethiopia'
+          'European Union'
+          'Falkland Islands'
+          'Faroe Islands'
+          'Fiji'
+          'Finland'
+          'France'
+          'French Guiana'
+          'French Polynesia'
+          'French Southern Territories'
+          'Gabon'
+          'Georgia'
+          'Germany'
+          'Ghana'
+          'Gibraltar'
+          'Greece'
+          'Greenland'
+          'Grenada'
+          'Guadeloupe'
+          'Guam'
+          'Guatemala'
+          'Guernsey and Alderney'
+          'Guinea'
+          'Guinea-Bissau'
+          'Guyana'
+          'Haiti'
+          'Heard and McDonald Island'
+          'Honduras'
+          'Hong Kong'
+          'Hungary'
+          'Iceland'
+          'India'
+          'Indonesia'
+          'Iran'
+          'Iraq'
+          'Ireland'
+          'Isle of Man'
+          'Israel'
+          'Italy'
+          'Jamaica'
+          'Japan'
+          'Jersey'
+          'Jordan'
+          'Kazakhstan'
+          'Kenya'
+          'Kiribati'
+          'Kosovo'
+          'Kuwait'
+          'Kyrgyzstan'
+          'Laos'
+          'Latvia'
+          'Lebanon'
+          'Lesotho'
+          'Liberia'
+          'Libya'
+          'Liechtenstein'
+          'Lithuania'
+          'Luxembourg'
+          'Macao'
+          'Macedonia'
+          'Madagascar'
+          'Malawi'
+          'Malaysia'
+          'Maldives'
+          'Mali'
+          'Malta'
+          'Marshall Islands'
+          'Martinique'
+          'Mauritania'
+          'Mauritius'
+          'Mayotte'
+          'Mexico'
+          'Micronesia'
+          'Moldova'
+          'Monaco'
+          'Mongolia'
+          'Montenegro'
+          'Montserrat'
+          'Morocco'
+          'Mozambique'
+          'Myanmar'
+          'Namibia'
+          'Nauru'
+          'Nepal'
+          'Netherlands'
+          'Netherlands Antilles'
+          'New Caledonia'
+          'New Zealand'
+          'Nicaragua'
+          'Niger'
+          'Nigeria'
+          'Niue'
+          'Norfolk Island'
+          'North Korea'
+          'Northern Mariana Islands'
+          'Norway'
+          'Oman'
+          'Pakistan'
+          'Palau'
+          'Palestinian Territory'
+          'Panama'
+          'Papua New Guinea'
+          'Paraguay'
+          'Peru'
+          'Philippines'
+          'Pitcairn Island'
+          'Poland'
+          'Portugal'
+          'Puerto Rico'
+          'Qatar'
+          'Reunion'
+          'Romania'
+          'Russia'
+          'Rwanda'
+          'Saint Barthelemy'
+          'Saint Helena'
+          'Saint Kitts and Nevis'
+          'Saint Lucia'
+          'Saint Martin'
+          'Saint Vincent and the Grenadines'
+          'Saint-Pierre und Miquelon'
+          'Samoa'
+          'San Marino'
+          'Sao Tome and Principe'
+          'Saudi Arabia'
+          'Scotland'
+          'Senegal'
+          'Serbia'
+          'Seychelles'
+          'Sierra Leone'
+          'Singapore'
+          'Slovakia'
+          'Slovenia'
+          'Solomon Islands'
+          'Somalia'
+          'South Africa'
+          'South Georgia and the South Sandwich Islands'
+          'South Korea'
+          'South Sudan'
+          'Spain'
+          'Sri Lanka'
+          'Sudan'
+          'Suriname'
+          'Svalbard and Jan Mayen'
+          'Swaziland'
+          'Sweden'
+          'Switzerland'
+          'Syrian Arab Republic'
+          'Taiwan'
+          'Tajikistan'
+          'Tanzania'
+          'Thailand'
+          'The Bahamas'
+          'The Gambia'
+          'Togo'
+          'Tokelau'
+          'Tonga'
+          'Trinidad and Tobago'
+          'Tunisia'
+          'Turkey'
+          'Turkmenistan'
+          'Turks and Caicos Islands'
+          'Tuvalu'
+          'Uganda'
+          'Ukraine'
+          'United Arab Emirates'
+          'United Kingdom'
+          'United States'
+          'United States Minor Outlying Islands'
+          'United States Virgin Islands'
+          'Uruguay'
+          'Uzbekistan'
+          'Vanuatu'
+          'Vatican'
+          'Venezuela'
+          'Viet Nam'
+          'Wales'
+          'Wallis and Futuna'
+          'Western Sahara'
+          'Yemen'
+          'Zambia'
+          'Zimbabwe'
+        )
+        OnDrawItem = cbCountryDrawItem
+        Style = csOwnerDrawFixed
+        TabOrder = 4
+        Text = 'Afghanistan'
+      end
+      object lbCountry: TLabel
+        AnchorSideLeft.Control = tsWAN
+        AnchorSideTop.Control = edEmail
+        AnchorSideTop.Side = asrBottom
+        Left = 8
+        Height = 15
+        Top = 207
+        Width = 39
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 8
+        Caption = '&Country'
+        FocusControl = cbCountry
+        ParentColor = False
+      end
+      object lbCity: TLabel
+        AnchorSideLeft.Control = edCity
+        AnchorSideTop.Control = lbCountry
+        Left = 152
+        Height = 15
+        Top = 207
+        Width = 20
+        Caption = 'C&ity'
+        FocusControl = edCity
+        ParentColor = False
+      end
+      object edCity: TEdit
+        AnchorSideLeft.Control = cbCountry
+        AnchorSideLeft.Side = asrBottom
+        AnchorSideTop.Control = cbCountry
+        AnchorSideRight.Control = tsWAN
+        AnchorSideRight.Side = asrBottom
+        AnchorSideBottom.Control = cbCountry
+        AnchorSideBottom.Side = asrBottom
+        Left = 152
+        Height = 21
+        Hint = 'Optionally, tell other player where you come from'
+        Top = 224
+        Width = 122
+        Anchors = [akTop, akRight, akBottom]
+        BorderSpacing.Left = 8
+        BorderSpacing.Right = 8
+        TabOrder = 5
+      end
+    end
+    object tsLAN: TTabSheet
+      Caption = '&Direct connection'
+      ClientHeight = 285
+      ClientWidth = 279
+      object rbClient: TRadioButton
+        AnchorSideLeft.Control = tsLAN
+        AnchorSideTop.Control = rbServer
+        AnchorSideTop.Side = asrBottom
+        Left = 8
+        Height = 21
+        Hint = 'Choose client to connect to a server via host name or IP number'
+        Top = 38
+        Width = 57
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 8
+        Caption = '&Client'
+        OnChange = rbClientServerChange
+        TabOrder = 1
+      end
+      object rbServer: TRadioButton
+        AnchorSideLeft.Control = tsLAN
+        Left = 8
+        Height = 21
+        Hint = 'Designate one server; up to three clients connect to this address'
+        Top = 9
+        Width = 63
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 24
+        Caption = '&Server'
+        Checked = True
+        OnChange = rbClientServerChange
+        TabOrder = 0
+        TabStop = True
+      end
+      object edServerAddr: TEdit
+        AnchorSideLeft.Control = tsLAN
+        AnchorSideTop.Control = rbClient
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = tsLAN
+        AnchorSideRight.Side = asrBottom
+        Left = 100
+        Height = 22
+        Hint = 'Insert name or IP address of server'
+        Top = 37
+        Width = 163
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Left = 100
+        BorderSpacing.Right = 16
+        Enabled = False
+        TabOrder = 2
+      end
+      object edNetworkPort: TEdit
+        AnchorSideLeft.Control = lbNetworkPort
+        AnchorSideLeft.Side = asrBottom
+        AnchorSideTop.Control = lbNetworkPort
+        AnchorSideTop.Side = asrCenter
+        AnchorSideRight.Control = tsLAN
+        AnchorSideRight.Side = asrBottom
+        Left = 187
+        Height = 22
+        Hint = 'Players communicate through this port'
+        Top = 67
+        Width = 76
+        Anchors = [akTop, akRight]
+        BorderSpacing.Left = 164
+        BorderSpacing.Right = 16
+        TabOrder = 3
+        Text = '5001'
+      end
+      object lbNetworkPort: TLabel
+        AnchorSideLeft.Control = tsLAN
+        AnchorSideTop.Control = rbClient
+        Left = 8
+        Height = 13
+        Top = 72
+        Width = 48
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 34
+        Caption = 'TCP &port'
+        FocusControl = edNetworkPort
+        ParentColor = False
+      end
+      object lbLoginLAN: TLabel
+        AnchorSideLeft.Control = tsLAN
+        AnchorSideTop.Control = lbNetworkPort
+        AnchorSideTop.Side = asrBottom
+        Left = 8
+        Height = 13
+        Top = 101
+        Width = 66
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 16
+        Caption = '&Login name'
+        FocusControl = edLoginLAN
+        ParentColor = False
+      end
+      object edLoginLAN: TEdit
+        AnchorSideLeft.Control = tsLAN
+        AnchorSideTop.Control = lbLoginLAN
+        AnchorSideTop.Side = asrBottom
+        AnchorSideRight.Control = tsLAN
+        AnchorSideRight.Side = asrBottom
+        Left = 8
+        Height = 22
+        Hint = 'The nick name identifies you in the game'
+        Top = 116
+        Width = 263
+        Anchors = [akTop, akLeft, akRight]
+        BorderSpacing.Left = 8
+        BorderSpacing.Top = 2
+        BorderSpacing.Right = 8
+        TabOrder = 4
+      end
+    end
+  end
+end

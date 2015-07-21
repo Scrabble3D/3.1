@@ -1,0 +1,9 @@
+TFMWELCOME.CAPTION=Welcome to Scrabble3D
+TFMWELCOME.BTNWELCOMENEXT.HINT=Go to the next wizard step
+TFMWELCOME.BTNWELCOMENEXT.CAPTION=&Next
+TFMWELCOME.BTNWELCOMEBACK.HINT=Go to the last wizard step 
+TFMWELCOME.BTNWELCOMEBACK.CAPTION=&Back
+TFMWELCOME.BTNWELCOMECANCEL.HINT=Abort this wizard
+TFMWELCOME.BTNWELCOMECANCEL.CAPTION=&Cancel
+TFMWELCOME.LBWELCOME.CAPTION=This dialogue will guide you through the first configuration steps. You need an internet connection to download additional files, i.e. translation and dictionary. Please make sure you are connected. All settings can be changed later in the program configuration.
+TFMWELCOME.LBSTEP.CAPTION=lbStep

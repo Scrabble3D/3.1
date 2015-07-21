@@ -1,0 +1,3696 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfmabout.caption
+msgctxt "tfmabout.caption"
+msgid "About"
+msgstr ""
+
+#: tfmabout.lblicencelink.caption
+msgid "lbLicenceLink"
+msgstr ""
+
+#: tfmabout.lbtitle.caption
+msgid "Scrabble 3D"
+msgstr ""
+
+#: tfmabout.tscontrib.caption
+msgid "Contribution"
+msgstr ""
+
+#: tfmabout.tsgeneral.caption
+msgctxt "TFMABOUT.TSGENERAL.CAPTION"
+msgid "About"
+msgstr ""
+
+#: tfmabout.tslicence.caption
+msgid "Licence"
+msgstr ""
+
+#: tfmgameoptions.acchangeboardcolor.caption
+msgid "&Change"
+msgstr ""
+
+#: tfmgameoptions.acdeletedictionary.hint
+msgid "Delete selected dictionary from local user folder"
+msgstr ""
+
+#: tfmgameoptions.acloaddictionary.caption
+msgctxt "TFMGAMEOPTIONS.ACLOADDICTIONARY.CAPTION"
+msgid "&Load"
+msgstr ""
+
+#: tfmgameoptions.acloaddictionary.hint
+msgid "Load dictionary"
+msgstr ""
+
+#: tfmgameoptions.acloadpreset.caption
+msgctxt "TFMGAMEOPTIONS.ACLOADPRESET.CAPTION"
+msgid "&Load"
+msgstr ""
+
+#: tfmgameoptions.acloadrules.caption
+msgctxt "TFMGAMEOPTIONS.ACLOADRULES.CAPTION"
+msgid "&Load"
+msgstr ""
+
+#: tfmgameoptions.acsavepreset.caption
+msgid "&Save"
+msgstr ""
+
+#: tfmgameoptions.btnchangeboardcolor.hint
+msgid "Change the color of the selected item"
+msgstr ""
+
+#: tfmgameoptions.btndesignload.caption
+msgctxt "tfmgameoptions.btndesignload.caption"
+msgid "&Load"
+msgstr ""
+
+#: tfmgameoptions.btndesignload.hint
+msgid "Load the selected design (and download first if necessary)"
+msgstr ""
+
+#: tfmgameoptions.btndictionaryload.hint
+msgid "Load the selected dictionary (and download first if necessary)"
+msgstr ""
+
+#: tfmgameoptions.btnfont.caption
+msgctxt "tfmgameoptions.btnfont.caption"
+msgid "..."
+msgstr ""
+
+#: tfmgameoptions.btnfont.hint
+msgid "Select the font to use on tiles"
+msgstr ""
+
+#: tfmgameoptions.btnlocalization.caption
+msgctxt "TFMGAMEOPTIONS.BTNLOCALIZATION.CAPTION"
+msgid "&Load"
+msgstr ""
+
+#: tfmgameoptions.btnlocalization.hint
+msgid "Load the selected localization (and download first if necessary)"
+msgstr ""
+
+#: tfmgameoptions.btnmovieprogram.caption
+msgctxt "TFMGAMEOPTIONS.BTNMOVIEPROGRAM.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tfmgameoptions.btnopenconfigdir.caption
+msgctxt "TFMGAMEOPTIONS.BTNOPENCONFIGDIR.CAPTION"
+msgid "..."
+msgstr ""
+
+#: tfmgameoptions.btnopenconfigdir.hint
+msgid "Open config dir in default file browser"
+msgstr ""
+
+#: tfmgameoptions.btnoptionsclose.caption
+msgid "&Close"
+msgstr ""
+
+#: tfmgameoptions.btnoptionsclose.hint
+msgid "Close dialog (visual changes are saved automatically, modified rules need confirmation)"
+msgstr ""
+
+#: tfmgameoptions.btnupdate.caption
+msgid "check &now"
+msgstr ""
+
+#: tfmgameoptions.btnupdate.hint
+msgid "Immediately check for updates"
+msgstr ""
+
+#: tfmgameoptions.caption
+msgid "Game options"
+msgstr ""
+
+#: tfmgameoptions.cbaddlettersleft.caption
+msgid "&Add left letters value"
+msgstr ""
+
+#: tfmgameoptions.cbaddlettersleft.hint
+msgid "Add the sum of substracted letter values to winner's points"
+msgstr ""
+
+#: tfmgameoptions.cbbackgroundcolor.hint
+msgid "Click to change background color"
+msgstr ""
+
+#: tfmgameoptions.cbboard.hint
+msgid "Select a predefined board"
+msgstr ""
+
+#: tfmgameoptions.cbboard.text
+msgid "Classic Scrabble"
+msgstr ""
+
+#: tfmgameoptions.cbboardtransparent.caption
+msgid "Transparent board"
+msgstr ""
+
+#: tfmgameoptions.cbboardtransparent.hint
+msgid "Toogle transparency of squares on or off"
+msgstr ""
+
+#: tfmgameoptions.cbcambiosecco.caption
+msgid "&Cambio secco"
+msgstr ""
+
+#: tfmgameoptions.cbcambiosecco.hint
+msgid "Allow to exchange all letters once without loss of move"
+msgstr ""
+
+#: tfmgameoptions.cbcanjokerexchange.caption
+msgid "&Joker exchange"
+msgstr ""
+
+#: tfmgameoptions.cbcanjokerexchange.hint
+msgid "Placed jokers can be exchanged by the appropriate letter, if checked"
+msgstr ""
+
+#: tfmgameoptions.cbchangeispass.caption
+msgid "Treat &zero move as pass"
+msgstr ""
+
+#: tfmgameoptions.cbchangeispass.hint
+msgid "Moves with zero points (exchange or rightly challenged) will be treated as pass and counted for game end, if checked"
+msgstr ""
+
+#: tfmgameoptions.cbchat.caption
+msgid "&Chat"
+msgstr ""
+
+#: tfmgameoptions.cbchat.hint
+msgid "Check to pop-up a window with incoming chat message"
+msgstr ""
+
+#: tfmgameoptions.cbclabbers.caption
+msgid "CLABBERS variant"
+msgstr ""
+
+#: tfmgameoptions.cbclabbers.hint
+msgid "CLABBERS variant treats anagrams of placed letters as valid word too"
+msgstr ""
+
+#: tfmgameoptions.cbcompdeterministic.caption
+msgid "&Deterministic"
+msgstr ""
+
+#: tfmgameoptions.cbcompdeterministic.hint
+msgid "Limitation is done either deterministic or randomly"
+msgstr ""
+
+#: tfmgameoptions.cbcompleteexchange.caption
+msgid "&Complete exchange"
+msgstr ""
+
+#: tfmgameoptions.cbcompleteexchange.hint
+msgid "All letters are exchanged except jokers and the one with maximum value, if checked"
+msgstr ""
+
+#: tfmgameoptions.cbdebug.caption
+msgid "Show &debug messages"
+msgstr ""
+
+#: tfmgameoptions.cbdebug.hint
+msgid "Check to get some additional messages for debugging purpose"
+msgstr ""
+
+#: tfmgameoptions.cberror.caption
+msgid "&Errors"
+msgstr ""
+
+#: tfmgameoptions.cberror.hint
+msgid "Check to pop-up a window for errors"
+msgstr ""
+
+#: tfmgameoptions.cbfixate.caption
+msgid "Lock 3D &board"
+msgstr ""
+
+#: tfmgameoptions.cbfixate.hint
+msgid "Cube is rotated to the actual plane dimension, if checked"
+msgstr ""
+
+#: tfmgameoptions.cbflat.caption
+msgid "Flat panels"
+msgstr ""
+
+#: tfmgameoptions.cbflat.hint
+msgid "Choose between flat or raised panel design"
+msgstr ""
+
+#: tfmgameoptions.cbgameresult.caption
+msgid "Game &result"
+msgstr ""
+
+#: tfmgameoptions.cbgameresult.hint
+msgid "Check to pop-up a window in case of messages about game result"
+msgstr ""
+
+#: tfmgameoptions.cbinformation.caption
+msgctxt "TFMGAMEOPTIONS.CBINFORMATION.CAPTION"
+msgid "&Information"
+msgstr ""
+
+#: tfmgameoptions.cbinformation.hint
+msgid "Check to pop-up a window in case of simple information"
+msgstr ""
+
+#: tfmgameoptions.cbjokerization.caption
+msgid "J&okerization"
+msgstr ""
+
+#: tfmgameoptions.cbjokerization.hint
+msgid "What-if-only variant: Turn one tile of your rack into a joker (ctrl+right click), but you have to place at least 50 points subsequently."
+msgstr ""
+
+#: tfmgameoptions.cblatest.caption
+msgid "&Mark last move"
+msgstr ""
+
+#: tfmgameoptions.cblatest.hint
+msgid "Check to mark the least placed letters"
+msgstr ""
+
+#: tfmgameoptions.cbletterset.hint
+msgid "Choose a standard letter set"
+msgstr ""
+
+#: tfmgameoptions.cblostbytime.caption
+msgid "Game &lost after final time out"
+msgstr ""
+
+#: tfmgameoptions.cblostbytime.hint
+msgid "Check this option to zero points after final time out"
+msgstr ""
+
+#: tfmgameoptions.cbmipmapping.caption
+msgid "Mipmapping"
+msgstr ""
+
+#: tfmgameoptions.cbownmove.caption
+msgid "Own &Move"
+msgstr ""
+
+#: tfmgameoptions.cbownmove.hint
+msgid "Check to pop-up a window when it is your move"
+msgstr ""
+
+#: tfmgameoptions.cbparallel.caption
+msgid "&Multithreaded"
+msgstr ""
+
+#: tfmgameoptions.cbparallel.hint
+msgid "Calculation is done parallel on a multi core CPU"
+msgstr ""
+
+#: tfmgameoptions.cbplayer1.hint
+msgctxt "tfmgameoptions.cbplayer1.hint"
+msgid "Click here to select the color of the first player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer2.hint
+msgctxt "tfmgameoptions.cbplayer2.hint"
+msgid "Click here to select the color of the second player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer3.hint
+msgctxt "tfmgameoptions.cbplayer3.hint"
+msgid "Click here to select the color of the third player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer4.hint
+msgctxt "tfmgameoptions.cbplayer4.hint"
+msgid "Click here to select the color of the fourth player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer5.hint
+msgctxt "TFMGAMEOPTIONS.CBPLAYER5.HINT"
+msgid "Click here to select the color of the first player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer6.hint
+msgctxt "TFMGAMEOPTIONS.CBPLAYER6.HINT"
+msgid "Click here to select the color of the second player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer7.hint
+msgctxt "TFMGAMEOPTIONS.CBPLAYER7.HINT"
+msgid "Click here to select the color of the third player"
+msgstr ""
+
+#: tfmgameoptions.cbplayer8.hint
+msgctxt "TFMGAMEOPTIONS.CBPLAYER8.HINT"
+msgid "Click here to select the color of the fourth player"
+msgstr ""
+
+#: tfmgameoptions.cbplayercolored.caption
+msgid "&Use player colors"
+msgstr ""
+
+#: tfmgameoptions.cbplayercolored.hint
+msgid "Check to colorize letters"
+msgstr ""
+
+#: tfmgameoptions.cbpresets.hint
+msgid "Enter a name for the current settings or select a predefined set to reload"
+msgstr ""
+
+#: tfmgameoptions.cbproxy.caption
+msgid "Use &proxy for network connections"
+msgstr ""
+
+#: tfmgameoptions.cbproxy.hint
+msgid "Set-up a proxy for networking"
+msgstr ""
+
+#: tfmgameoptions.cbrackpos.text
+msgctxt "tfmgameoptions.cbrackpos.text"
+msgid "bottom left"
+msgstr ""
+
+#: tfmgameoptions.cbreflections.caption
+msgid "Reflective board"
+msgstr ""
+
+#: tfmgameoptions.cbroman.caption
+msgid "Coordinates with &roman labels"
+msgstr ""
+
+#: tfmgameoptions.cbroman.hint
+msgid "Use roman labels instead greek letters in 3D mode"
+msgstr ""
+
+#: tfmgameoptions.cbrulesset.hint
+msgid "Select one of the regional tournament rules that is applied to many different settings which are shown below"
+msgstr ""
+
+#: tfmgameoptions.cbshaded.caption
+msgid "&Shaded"
+msgstr ""
+
+#: tfmgameoptions.cbshaded.hint
+msgid "Paint a black shadow "
+msgstr ""
+
+#: tfmgameoptions.cbshowbonusmarkers.caption
+msgid "Bonus &markers in 2D"
+msgstr ""
+
+#: tfmgameoptions.cbshowbonusmarkers.hint
+msgid "Paint markers around bonus fields"
+msgstr ""
+
+#: tfmgameoptions.cbshowbonustext.caption
+msgid "Bonus field &description"
+msgstr ""
+
+#: tfmgameoptions.cbshowbonustext.hint
+msgid "Show captions on bonus fields"
+msgstr ""
+
+#: tfmgameoptions.cbshowcomputer.caption
+msgid "&Show computer's letters"
+msgstr ""
+
+#: tfmgameoptions.cbshowcomputer.hint
+msgid "Show computer's letters or not; Additionally, exchanged letters are not visible in game course until game end, if unchecked"
+msgstr ""
+
+#: tfmgameoptions.cbshowscore.caption
+msgid "Show &score with each move results"
+msgstr ""
+
+#: tfmgameoptions.cbshowscore.hint
+msgid "Add score to move results, if checked"
+msgstr ""
+
+#: tfmgameoptions.cbstatusbar.caption
+msgid "Status bar"
+msgstr ""
+
+#: tfmgameoptions.cbstatusbar.hint
+msgid "Hide the status bar by disabling this option"
+msgstr ""
+
+#: tfmgameoptions.cbsticky.caption
+msgid "Adjust per mouse"
+msgstr ""
+
+#: tfmgameoptions.cbsticky.hint
+msgid "Check to provide adjustment of perspective by mouse"
+msgstr ""
+
+#: tfmgameoptions.cbsubstractlettersleft.caption
+msgid "&Substract left letters value"
+msgstr ""
+
+#: tfmgameoptions.cbsubstractlettersleft.hint
+msgid "Substract the value of left letters from game result"
+msgstr ""
+
+#: tfmgameoptions.cbtoolbar3d.caption
+msgid "Show &toolbar on 3D view"
+msgstr ""
+
+#: tfmgameoptions.cbtoolbar3d.hint
+msgid "Toolbar at 3D view can be switched on or off by this option"
+msgstr ""
+
+#: tfmgameoptions.cbupdates.hint
+msgid "Select how often the application checkes for updates"
+msgstr ""
+
+#: tfmgameoptions.cbupdates.text
+msgctxt "TFMGAMEOPTIONS.CBUPDATES.TEXT"
+msgid "weekly"
+msgstr ""
+
+#: tfmgameoptions.cbwarnings.caption
+msgid "&Warnings"
+msgstr ""
+
+#: tfmgameoptions.cbwarnings.hint
+msgid "Check to pop-up a window in case of warnings"
+msgstr ""
+
+#: tfmgameoptions.dgfieldtype.hint
+msgid "Configuration of the board or layer (left click to iterate through field types, right for pulldown menu)"
+msgstr ""
+
+#: tfmgameoptions.edconfigdir.hint
+msgid "Location of configuration files,  translation files, and dictionaries"
+msgstr ""
+
+#: tfmgameoptions.edfont.hint
+msgid "Click the button to select a different font"
+msgstr ""
+
+#: tfmgameoptions.edfont.text
+msgid "Verdana"
+msgstr ""
+
+#: tfmgameoptions.edmovieoptions.text
+msgid "-r 2"
+msgstr ""
+
+#: tfmgameoptions.edproxyip.hint
+msgid "IP address of HTTP proxy"
+msgstr ""
+
+#: tfmgameoptions.edproxypass.hint
+msgid "Authorization password for access to HTTP proxy"
+msgstr ""
+
+#: tfmgameoptions.edproxyport.hint
+msgid "Port of HTTP proxy"
+msgstr ""
+
+#: tfmgameoptions.edproxyuser.hint
+msgid "Authorization username for access to HTTP proxy"
+msgstr ""
+
+#: tfmgameoptions.edsoundcommand.hint
+msgid "Linux users should specify the command for playing a wave file here (e.g. paplay in case of pulseaudio)"
+msgstr ""
+
+#: tfmgameoptions.edsoundcommand.text
+msgid "/usr/bin/paplay"
+msgstr ""
+
+#: tfmgameoptions.gb2dimages.caption
+msgid "Pictures"
+msgstr ""
+
+#: tfmgameoptions.gb2dlight.caption
+msgid "Illumination"
+msgstr ""
+
+#: tfmgameoptions.gb2dperspective.caption
+msgid "Perspective"
+msgstr ""
+
+#: tfmgameoptions.gbboard.caption
+msgid "Default board"
+msgstr ""
+
+#: tfmgameoptions.gbboardcolors.caption
+msgid "Board colors"
+msgstr ""
+
+#: tfmgameoptions.gbboardconfig.caption
+msgid "Board configuration"
+msgstr ""
+
+#: tfmgameoptions.gbcategories.caption
+msgid "Categories"
+msgstr ""
+
+#: tfmgameoptions.gbcategories.hint
+msgid "Words can be assigned to (de-)selectable categories"
+msgstr ""
+
+#: tfmgameoptions.gbcompopt.caption
+msgid "Computer options"
+msgstr ""
+
+#: tfmgameoptions.gbcomputer.caption
+msgctxt "TFMGAMEOPTIONS.GBCOMPUTER.CAPTION"
+msgid "Computer"
+msgstr ""
+
+#: tfmgameoptions.gbdesign.caption
+msgid "Design presets"
+msgstr ""
+
+#: tfmgameoptions.gbdesignoptions.caption
+msgid "Design options"
+msgstr ""
+
+#: tfmgameoptions.gbdictionary.caption
+msgctxt "TFMGAMEOPTIONS.GBDICTIONARY.CAPTION"
+msgid "Dictionary"
+msgstr ""
+
+#: tfmgameoptions.gbleftover.caption
+msgid "Miscellaneous"
+msgstr ""
+
+#: tfmgameoptions.gbletter.caption
+msgid "Letter set"
+msgstr ""
+
+#: tfmgameoptions.gbletteroptions.caption
+msgid "Letter options"
+msgstr ""
+
+#: tfmgameoptions.gblocalization.caption
+msgctxt "TFMGAMEOPTIONS.GBLOCALIZATION.CAPTION"
+msgid "Localization"
+msgstr ""
+
+#: tfmgameoptions.gbmessages.caption
+msgctxt "TFMGAMEOPTIONS.GBMESSAGES.CAPTION"
+msgid "Messages"
+msgstr ""
+
+#: tfmgameoptions.gbnetwork.caption
+msgctxt "tfmgameoptions.gbnetwork.caption"
+msgid "Network"
+msgstr ""
+
+#: tfmgameoptions.gbplayercolors.caption
+msgid "Player colors"
+msgstr ""
+
+#: tfmgameoptions.gbpresets.caption
+msgid "Presets"
+msgstr ""
+
+#: tfmgameoptions.gbrules.caption
+msgid "Tournament rules"
+msgstr ""
+
+#: tfmgameoptions.gbrulesoptions.caption
+msgid "Rules options"
+msgstr ""
+
+#: tfmgameoptions.gbtimecontrol.caption
+msgid "Time control"
+msgstr ""
+
+#: tfmgameoptions.gbtimecontrol.hint
+msgid "Select time control"
+msgstr ""
+
+#: tfmgameoptions.gbtimepenalty.caption
+msgid "Time penalty"
+msgstr ""
+
+#: tfmgameoptions.gbtimepenalty.hint
+msgid "Choose what happens if a player runs out of time"
+msgstr ""
+
+#: tfmgameoptions.gbwordcheckmode.caption
+msgid "Word check mode"
+msgstr ""
+
+#: tfmgameoptions.imboard.hint
+msgid "Preview of selected board"
+msgstr ""
+
+#: tfmgameoptions.imjoker.hint
+msgid "Select a picture that should be used for jokers"
+msgstr ""
+
+#: tfmgameoptions.imrandom.hint
+msgid "Select a picture that should be used for random tiles"
+msgstr ""
+
+#: tfmgameoptions.lb2dambient.caption
+msgid "&Light position (x,y,z):"
+msgstr ""
+
+#: tfmgameoptions.lbbackgroundcolor.caption
+msgid "&Background color:"
+msgstr ""
+
+#: tfmgameoptions.lbboardpreset.caption
+msgid "&Load default board:"
+msgstr ""
+
+#: tfmgameoptions.lbboardpreview.caption
+msgid "Preview:"
+msgstr ""
+
+#: tfmgameoptions.lbboardsize.caption
+msgid "Board &size:"
+msgstr ""
+
+#: tfmgameoptions.lbchallengebonus.caption
+msgid "&Bonus [points]:"
+msgstr ""
+
+#: tfmgameoptions.lbchallengepenalty.caption
+msgid "Pe&nalty [points]:"
+msgstr ""
+
+#: tfmgameoptions.lbchallengeperiod.caption
+msgid "P&eriod [s]:"
+msgstr ""
+
+#: tfmgameoptions.lbchangelength.caption
+msgid "&Length"
+msgstr ""
+
+#: tfmgameoptions.lbchangevalue.caption
+msgid "&Value"
+msgstr ""
+
+#: tfmgameoptions.lbcompcambiosecco.caption
+msgid "Use &Cambio Secco if less than"
+msgstr ""
+
+#: tfmgameoptions.lbcompcambiosecco.hint
+msgid "Link to Cambio Secco settings"
+msgstr ""
+
+#: tfmgameoptions.lbcompcambioseccovalue.caption
+msgctxt "tfmgameoptions.lbcompcambioseccovalue.caption"
+msgid " points"
+msgstr ""
+
+#: tfmgameoptions.lbcompchange.caption
+msgid "Change letters if points or length <"
+msgstr ""
+
+#: tfmgameoptions.lbcompchangeletter.caption
+msgid " letters"
+msgstr ""
+
+#: tfmgameoptions.lbcompchangevalue.caption
+msgctxt "TFMGAMEOPTIONS.LBCOMPCHANGEVALUE.CAPTION"
+msgid " points"
+msgstr ""
+
+#: tfmgameoptions.lbcompexchange.caption
+msgid "Try to e&xchange joker if less than"
+msgstr ""
+
+#: tfmgameoptions.lbcompexchange.hint
+msgid "Link to exchange settings"
+msgstr ""
+
+#: tfmgameoptions.lbcompexchangevalue.caption
+msgctxt "TFMGAMEOPTIONS.LBCOMPEXCHANGEVALUE.CAPTION"
+msgid " points"
+msgstr ""
+
+#: tfmgameoptions.lbcompperformance.caption
+msgid "&Performance:"
+msgstr ""
+
+#: tfmgameoptions.lbcomptrust.caption
+msgid "Trust in challenge mode"
+msgstr ""
+
+#: tfmgameoptions.lbcompusejoker.caption
+msgid "Use &joker only with advance of"
+msgstr ""
+
+#: tfmgameoptions.lbcompusejokervalue.caption
+msgctxt "TFMGAMEOPTIONS.LBCOMPUSEJOKERVALUE.CAPTION"
+msgid " points"
+msgstr ""
+
+#: tfmgameoptions.lbconfigfile.caption
+msgid "Config &directory"
+msgstr ""
+
+#: tfmgameoptions.lbdimension.caption
+msgid "&Dimensions:"
+msgstr ""
+
+#: tfmgameoptions.lbdistance.caption
+msgid "&Distance:"
+msgstr ""
+
+#: tfmgameoptions.lbfontname.caption
+msgid "&Font name"
+msgstr ""
+
+#: tfmgameoptions.lbgameendbonus.caption
+msgid "&Bonus on game end"
+msgstr ""
+
+#: tfmgameoptions.lbjoker.caption
+msgid "Joker"
+msgstr ""
+
+#: tfmgameoptions.lbjokerpenalty.caption
+msgid "Penalty for jokers &left"
+msgstr ""
+
+#: tfmgameoptions.lbletterset.caption
+msgid "&Load standard letter set:"
+msgstr ""
+
+#: tfmgameoptions.lblettersize.caption
+msgid "&Letter size [%]"
+msgstr ""
+
+#: tfmgameoptions.lblightambient.caption
+msgid "&Ambient light:"
+msgstr ""
+
+#: tfmgameoptions.lblightdiffuse.caption
+msgid "&Diffuse light:"
+msgstr ""
+
+#: tfmgameoptions.lblimitexchange.caption
+msgid "Limit e&xchange to #letters"
+msgstr ""
+
+#: tfmgameoptions.lbluminance.caption
+msgid "Chat color &luminance [%]"
+msgstr ""
+
+#: tfmgameoptions.lbmovie.caption
+msgid "&Movie export"
+msgstr ""
+
+#: tfmgameoptions.lbnumberofjokers.caption
+msgid "Number of &jokers:"
+msgstr ""
+
+#: tfmgameoptions.lbnumberofletters.caption
+msgid "Number of &pieces:"
+msgstr ""
+
+#: tfmgameoptions.lbnumberofrandomletters.caption
+msgid "Number of &randoms:"
+msgstr ""
+
+#: tfmgameoptions.lbnumbersize.caption
+msgid "&Number size [%]"
+msgstr ""
+
+#: tfmgameoptions.lbpass.caption
+msgid "Passes &until game end"
+msgstr ""
+
+#: tfmgameoptions.lbpitch.caption
+msgid "&Pitch:"
+msgstr ""
+
+#: tfmgameoptions.lbplane.caption
+msgid "3D &plane:"
+msgstr ""
+
+#: tfmgameoptions.lbpresetslabel.caption
+msgid "&Load presets:"
+msgstr ""
+
+#: tfmgameoptions.lbproxyip.caption
+msgid "Proxy &IP:"
+msgstr ""
+
+#: tfmgameoptions.lbproxypass.caption
+msgid "Proxy pass&word:"
+msgstr ""
+
+#: tfmgameoptions.lbproxyport.caption
+msgid "Proxy P&ort:"
+msgstr ""
+
+#: tfmgameoptions.lbproxyuser.caption
+msgid "Proxy user &name:"
+msgstr ""
+
+#: tfmgameoptions.lbrackpos.caption
+msgid "Rack position:"
+msgstr ""
+
+#: tfmgameoptions.lbrandom.caption
+msgid "Random:"
+msgstr ""
+
+#: tfmgameoptions.lbreadingdirection.caption
+msgid "Reading &direction:"
+msgstr ""
+
+#: tfmgameoptions.lbrulesset.caption
+msgid "&Load tournament rules:"
+msgstr ""
+
+#: tfmgameoptions.lbscrabblebonus.caption
+msgid "Bonus &for Scrabbles"
+msgstr ""
+
+#: tfmgameoptions.lbsoundcommand.caption
+msgid "&Sound server:"
+msgstr ""
+
+#: tfmgameoptions.lbtimepenaltycount.caption
+msgid "times"
+msgstr ""
+
+#: tfmgameoptions.lbtimepenaltycountlabel.caption
+msgid "but not more than"
+msgstr ""
+
+#: tfmgameoptions.lbtimepenaltyvalue.caption
+msgctxt "TFMGAMEOPTIONS.LBTIMEPENALTYVALUE.CAPTION"
+msgid "points"
+msgstr ""
+
+#: tfmgameoptions.lbtotalnumberofletters.caption
+msgid "Total letter count:"
+msgstr ""
+
+#: tfmgameoptions.lbtranslation.caption
+msgid "&Translation:"
+msgstr ""
+
+#: tfmgameoptions.lbupdate.caption
+msgctxt "TFMGAMEOPTIONS.LBUPDATE.CAPTION"
+msgid "Check for &updates"
+msgstr ""
+
+#: tfmgameoptions.lvdesigns.columns[0].caption
+msgid "Name"
+msgstr ""
+
+#: tfmgameoptions.lvdesigns.columns[1].caption
+msgctxt "TFMGAMEOPTIONS.LVDESIGNS.COLUMNS[1].CAPTION"
+msgid "English"
+msgstr ""
+
+#: tfmgameoptions.lvdesigns.columns[2].caption
+msgctxt "TFMGAMEOPTIONS.LVDESIGNS.COLUMNS[2].CAPTION"
+msgid "Local"
+msgstr ""
+
+#: tfmgameoptions.lvdesigns.columns[3].caption
+msgctxt "TFMGAMEOPTIONS.LVDESIGNS.COLUMNS[3].CAPTION"
+msgid "Available"
+msgstr ""
+
+#: tfmgameoptions.lvdesigns.hint
+msgctxt "TFMGAMEOPTIONS.LVDESIGNS.HINT"
+msgid "List of available designs"
+msgstr ""
+
+#: tfmgameoptions.lvdictionaries.columns[0].caption
+msgctxt "tfmgameoptions.lvdictionaries.columns[0].caption"
+msgid "Native"
+msgstr ""
+
+#: tfmgameoptions.lvdictionaries.columns[1].caption
+msgctxt "tfmgameoptions.lvdictionaries.columns[1].caption"
+msgid "English"
+msgstr ""
+
+#: tfmgameoptions.lvdictionaries.columns[2].caption
+msgctxt "tfmgameoptions.lvdictionaries.columns[2].caption"
+msgid "Local"
+msgstr ""
+
+#: tfmgameoptions.lvdictionaries.columns[3].caption
+msgctxt "tfmgameoptions.lvdictionaries.columns[3].caption"
+msgid "Available"
+msgstr ""
+
+#: tfmgameoptions.lvdictionaries.hint
+msgid "List of available dictionaries"
+msgstr ""
+
+#: tfmgameoptions.lvlocalizations.columns[0].caption
+msgctxt "TFMGAMEOPTIONS.LVLOCALIZATIONS.COLUMNS[0].CAPTION"
+msgid "Native"
+msgstr ""
+
+#: tfmgameoptions.lvlocalizations.columns[1].caption
+msgctxt "TFMGAMEOPTIONS.LVLOCALIZATIONS.COLUMNS[1].CAPTION"
+msgid "English"
+msgstr ""
+
+#: tfmgameoptions.lvlocalizations.columns[2].caption
+msgctxt "TFMGAMEOPTIONS.LVLOCALIZATIONS.COLUMNS[2].CAPTION"
+msgid "Local"
+msgstr ""
+
+#: tfmgameoptions.lvlocalizations.columns[3].caption
+msgctxt "TFMGAMEOPTIONS.LVLOCALIZATIONS.COLUMNS[3].CAPTION"
+msgid "Available"
+msgstr ""
+
+#: tfmgameoptions.lvlocalizations.hint
+msgid "List of available localizations"
+msgstr ""
+
+#: tfmgameoptions.metimelimitpergame.hint
+msgid "Every player gets a part of specified time for the whole game."
+msgstr ""
+
+#: tfmgameoptions.metimelimitpergame.text
+msgctxt "tfmgameoptions.metimelimitpergame.text"
+msgid " :  :  "
+msgstr ""
+
+#: tfmgameoptions.metimelimitpermove.hint
+msgid "Limits the time for one move (h:mm:ss)."
+msgstr ""
+
+#: tfmgameoptions.metimelimitpermove.text
+msgctxt "tfmgameoptions.metimelimitpermove.text"
+msgid " :  :  "
+msgstr ""
+
+#: tfmgameoptions.micopy.caption
+msgctxt "tfmgameoptions.micopy.caption"
+msgid "Copy"
+msgstr ""
+
+#: tfmgameoptions.midoubleletter.caption
+msgctxt "TFMGAMEOPTIONS.MIDOUBLELETTER.CAPTION"
+msgid "double letter"
+msgstr ""
+
+#: tfmgameoptions.midoublelettermalus.caption
+msgctxt "TFMGAMEOPTIONS.MIDOUBLELETTERMALUS.CAPTION"
+msgid "double letter malus"
+msgstr ""
+
+#: tfmgameoptions.midoubleword.caption
+msgctxt "TFMGAMEOPTIONS.MIDOUBLEWORD.CAPTION"
+msgid "double word"
+msgstr ""
+
+#: tfmgameoptions.miletter.caption
+msgid "letter"
+msgstr ""
+
+#: tfmgameoptions.minewletter.caption
+msgctxt "TFMGAMEOPTIONS.MINEWLETTER.CAPTION"
+msgid "new letter"
+msgstr ""
+
+#: tfmgameoptions.minormal.caption
+msgid "normal"
+msgstr ""
+
+#: tfmgameoptions.mipaste.caption
+msgid "Paste"
+msgstr ""
+
+#: tfmgameoptions.miquadletter.caption
+msgctxt "TFMGAMEOPTIONS.MIQUADLETTER.CAPTION"
+msgid "quad letter"
+msgstr ""
+
+#: tfmgameoptions.miquadlettermalus.caption
+msgctxt "TFMGAMEOPTIONS.MIQUADLETTERMALUS.CAPTION"
+msgid "quad letter malus"
+msgstr ""
+
+#: tfmgameoptions.miquadword.caption
+msgctxt "TFMGAMEOPTIONS.MIQUADWORD.CAPTION"
+msgid "quad word"
+msgstr ""
+
+#: tfmgameoptions.misinglelettermalus.caption
+msgctxt "TFMGAMEOPTIONS.MISINGLELETTERMALUS.CAPTION"
+msgid "single letter malus"
+msgstr ""
+
+#: tfmgameoptions.mistart.caption
+msgid "start"
+msgstr ""
+
+#: tfmgameoptions.mitripleletter.caption
+msgctxt "TFMGAMEOPTIONS.MITRIPLELETTER.CAPTION"
+msgid "triple letter"
+msgstr ""
+
+#: tfmgameoptions.mitriplelettermalus.caption
+msgctxt "TFMGAMEOPTIONS.MITRIPLELETTERMALUS.CAPTION"
+msgid "triple letter malus"
+msgstr ""
+
+#: tfmgameoptions.mitripleword.caption
+msgctxt "TFMGAMEOPTIONS.MITRIPLEWORD.CAPTION"
+msgid "triple word"
+msgstr ""
+
+#: tfmgameoptions.pnchat.hint
+msgctxt "tfmgameoptions.pnchat.hint"
+msgid "Check to have a popup window for that message type. If right hand buttons are down a short jingle is played."
+msgstr ""
+
+#: tfmgameoptions.pngameresult.hint
+msgctxt "TFMGAMEOPTIONS.PNGAMERESULT.HINT"
+msgid "Check to have a popup window for that message type. If right hand buttons are down a short jingle is played."
+msgstr ""
+
+#: tfmgameoptions.pnownmove.hint
+msgctxt "TFMGAMEOPTIONS.PNOWNMOVE.HINT"
+msgid "Check to have a popup window for that message type. If right hand buttons are down a short jingle is played."
+msgstr ""
+
+#: tfmgameoptions.pnscrabble.caption
+msgid "Scrabble"
+msgstr ""
+
+#: tfmgameoptions.rbdim2d.caption
+msgid "&2D"
+msgstr ""
+
+#: tfmgameoptions.rbdim2d.hint
+msgctxt "tfmgameoptions.rbdim2d.hint"
+msgid "Two or three dimensional"
+msgstr ""
+
+#: tfmgameoptions.rbdim3d.caption
+msgid "&3D"
+msgstr ""
+
+#: tfmgameoptions.rbdim3d.hint
+msgctxt "TFMGAMEOPTIONS.RBDIM3D.HINT"
+msgid "Two or three dimensional"
+msgstr ""
+
+#: tfmgameoptions.rblefttoright.caption
+msgid "left to right"
+msgstr ""
+
+#: tfmgameoptions.rblefttoright.hint
+msgctxt "tfmgameoptions.rblefttoright.hint"
+msgid "Arab, Farsi or Hebrew e.g. languages are read right to left which can be set here. Please take care: Special configurations are not transmitted to mates in networkgame!"
+msgstr ""
+
+#: tfmgameoptions.rbnolimit.caption
+msgid "&no limit"
+msgstr ""
+
+#: tfmgameoptions.rbnolimit.hint
+msgid "Game has no time limits"
+msgstr ""
+
+#: tfmgameoptions.rbpergame.caption
+msgid "per &game"
+msgstr ""
+
+#: tfmgameoptions.rbpergame.hint
+msgid "Time to complete the game is limited. Players get fraction of given value."
+msgstr ""
+
+#: tfmgameoptions.rbpermove.caption
+msgid "per &move"
+msgstr ""
+
+#: tfmgameoptions.rbpermove.hint
+msgid "Every move is limited"
+msgstr ""
+
+#: tfmgameoptions.rbrighttoleft.caption
+msgid "right to left"
+msgstr ""
+
+#: tfmgameoptions.rbrighttoleft.hint
+msgctxt "TFMGAMEOPTIONS.RBRIGHTTOLEFT.HINT"
+msgid "Arab, Farsi or Hebrew e.g. languages are read right to left which can be set here. Please take care: Special configurations are not transmitted to mates in networkgame!"
+msgstr ""
+
+#: tfmgameoptions.rbtimepenaltybuytime.caption
+msgid "&Penalty per minute"
+msgstr ""
+
+#: tfmgameoptions.rbtimepenaltybuytime.hint
+msgid "Additional time is provideded in exchange for points"
+msgstr ""
+
+#: tfmgameoptions.rbtimepenaltyendgame.caption
+msgid "Game &end for player"
+msgstr ""
+
+#: tfmgameoptions.rbtimepenaltyendgame.hint
+msgid "The player without time is skipped for the following moves."
+msgstr ""
+
+#: tfmgameoptions.rbwcmchallenge.caption
+msgid "C&hallenge"
+msgstr ""
+
+#: tfmgameoptions.rbwcmchallenge.hint
+msgid "Check move only on explicit challenge (tournament modus)"
+msgstr ""
+
+#: tfmgameoptions.rbwcmpoll.caption
+msgid "&Poll"
+msgstr ""
+
+#: tfmgameoptions.rbwcmpoll.hint
+msgid "Ask group whether or not unknown words should be accepted (no takeback granted)"
+msgstr ""
+
+#: tfmgameoptions.rbwcmtakeback.caption
+msgid "&Takeback"
+msgstr ""
+
+#: tfmgameoptions.rbwcmtakeback.hint
+msgid "Ask before move is finalized in case of unknown words"
+msgstr ""
+
+#: tfmgameoptions.rg2dmode.caption
+msgctxt "tfmgameoptions.rg2dmode.caption"
+msgid "Modus"
+msgstr ""
+
+#: tfmgameoptions.rg2dmode.hint
+msgid "Some older systems might run into trouble with OpenGL graphics"
+msgstr ""
+
+#: tfmgameoptions.rgoptionsnavigator.caption
+msgctxt "TFMGAMEOPTIONS.RGOPTIONSNAVIGATOR.CAPTION"
+msgid "Modus"
+msgstr ""
+
+#: tfmgameoptions.rgoptionsnavigator.hint
+msgid "Use simple modus to configure major settings only, or choose Advance for complete access"
+msgstr ""
+
+#: tfmgameoptions.sbchat.hint
+msgid "Toggle buttons to hear a jingle on incoming chat messages"
+msgstr ""
+
+#: tfmgameoptions.sbdelete.hint
+msgid "Delete the current selection"
+msgstr ""
+
+#: tfmgameoptions.sbdeletedesign.hint
+msgid "Delete the selected design from local user folder"
+msgstr ""
+
+#: tfmgameoptions.sbdeletedictionary.hint
+msgid "Delete the selected dictionary from local user folder"
+msgstr ""
+
+#: tfmgameoptions.sbdeletelang.hint
+msgid "Delete the selected localization from local user folder"
+msgstr ""
+
+#: tfmgameoptions.sbgameresult.hint
+msgid "Toggle buttons to hear a jingle at game end"
+msgstr ""
+
+#: tfmgameoptions.sbownmove.hint
+msgid "Toggle buttons to hear a jingle if it's your turn"
+msgstr ""
+
+#: tfmgameoptions.sbsave.hint
+msgid "Save all settings"
+msgstr ""
+
+#: tfmgameoptions.sbscrabble.hint
+msgid "Toggle buttons to hear a jingle when a Scrabble is placed"
+msgstr ""
+
+#: tfmgameoptions.seboardsize.hint
+msgid "Size of the board"
+msgstr ""
+
+#: tfmgameoptions.sechallengebonus.hint
+msgid "Bonus if a word is not valid"
+msgstr ""
+
+#: tfmgameoptions.sechallengepenalty.hint
+msgid "Penalty if words are valid"
+msgstr ""
+
+#: tfmgameoptions.sechallengeperiod.hint
+msgid "Time to challenge a move"
+msgstr ""
+
+#: tfmgameoptions.segameendbonus.hint
+msgid "Special bonus received by the player who ends the game"
+msgstr ""
+
+#: tfmgameoptions.sejokerpenalty.hint
+msgid "Penalty for remaining jokers after game end"
+msgstr ""
+
+#: tfmgameoptions.selettersetmultiplier.hint
+msgid "Multiply the letter count by this value"
+msgstr ""
+
+#: tfmgameoptions.selettersize.hint
+msgid "Size of letter on tile as percentage of space"
+msgstr ""
+
+#: tfmgameoptions.selimitexchange.hint
+msgid "Exchange letters only if a certain number of tiles remain in bag"
+msgstr ""
+
+#: tfmgameoptions.senumberofjokers.hint
+msgid "Number of available joker in the game"
+msgstr ""
+
+#: tfmgameoptions.senumberofletters.hint
+msgid "Number of tiles on rack"
+msgstr ""
+
+#: tfmgameoptions.senumberofpasses.hint
+msgid "Number of passes per player until game ends"
+msgstr ""
+
+#: tfmgameoptions.senumberofrandomletters.hint
+msgid "Add some letters randomly chosen from the upper list"
+msgstr ""
+
+#: tfmgameoptions.senumbersize.hint
+msgid "Size of value on tile as percentage of space"
+msgstr ""
+
+#: tfmgameoptions.sescrabblebonus.hint
+msgid "Bonus when all tiles are placed"
+msgstr ""
+
+#: tfmgameoptions.setimepenaltycount.hint
+msgid "Limit the exchange of time by points"
+msgstr ""
+
+#: tfmgameoptions.setimepenaltyvalue.hint
+msgid "The points that are deducted from player's result in exchange for one additional minute"
+msgstr ""
+
+#: tfmgameoptions.sgdesign.columns[0].title.caption
+msgctxt "TFMGAMEOPTIONS.SGDESIGN.COLUMNS[0].TITLE.CAPTION"
+msgid "Key"
+msgstr ""
+
+#: tfmgameoptions.sgdesign.columns[1].title.caption
+msgctxt "TFMGAMEOPTIONS.SGDESIGN.COLUMNS[1].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmgameoptions.sgdictionary.columns[0].title.caption
+msgctxt "TFMGAMEOPTIONS.SGDICTIONARY.COLUMNS[0].TITLE.CAPTION"
+msgid "Key"
+msgstr ""
+
+#: tfmgameoptions.sgdictionary.columns[1].title.caption
+msgctxt "TFMGAMEOPTIONS.SGDICTIONARY.COLUMNS[1].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmgameoptions.sgletters.columns[0].title.caption
+msgid "Letter"
+msgstr ""
+
+#: tfmgameoptions.sgletters.columns[1].title.caption
+msgctxt "TFMGAMEOPTIONS.SGLETTERS.COLUMNS[1].TITLE.CAPTION"
+msgid "Count"
+msgstr ""
+
+#: tfmgameoptions.sgletters.columns[2].title.caption
+msgctxt "TFMGAMEOPTIONS.SGLETTERS.COLUMNS[2].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmgameoptions.sgletters.hint
+msgid "Spreadsheet of available letters with count and value. Cells are editable."
+msgstr ""
+
+#: tfmgameoptions.sglocalization.columns[0].title.caption
+msgctxt "TFMGAMEOPTIONS.SGLOCALIZATION.COLUMNS[0].TITLE.CAPTION"
+msgid "Key"
+msgstr ""
+
+#: tfmgameoptions.sglocalization.columns[1].title.caption
+msgctxt "TFMGAMEOPTIONS.SGLOCALIZATION.COLUMNS[1].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmgameoptions.sgpreset.columns[0].title.caption
+msgctxt "tfmgameoptions.sgpreset.columns[0].title.caption"
+msgid "Key"
+msgstr ""
+
+#: tfmgameoptions.sgpreset.columns[1].title.caption
+msgctxt "TFMGAMEOPTIONS.SGPRESET.COLUMNS[1].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmgameoptions.sgrules.columns[0].title.caption
+msgctxt "TFMGAMEOPTIONS.SGRULES.COLUMNS[0].TITLE.CAPTION"
+msgid "Key"
+msgstr ""
+
+#: tfmgameoptions.sgrules.columns[1].title.caption
+msgctxt "TFMGAMEOPTIONS.SGRULES.COLUMNS[1].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmgameoptions.stactiveplanevalue.caption
+msgid "1"
+msgstr ""
+
+#: tfmgameoptions.stcompperformancevalue.caption
+msgctxt "tfmgameoptions.stcompperformancevalue.caption"
+msgid " %"
+msgstr ""
+
+#: tfmgameoptions.stcomptrustvalue.caption
+msgctxt "TFMGAMEOPTIONS.STCOMPTRUSTVALUE.CAPTION"
+msgid " %"
+msgstr ""
+
+#: tfmgameoptions.stluminancevalue.caption
+msgid "%"
+msgstr ""
+
+#: tfmgameoptions.sttotallettercount.caption
+msgid "123"
+msgstr ""
+
+#: tfmgameoptions.sttotallettercount.hint
+msgid "Sum of letters plus jokers and random letters"
+msgstr ""
+
+#: tfmgameoptions.tbactiveplane.hint
+msgid "Current layer position in the cube"
+msgstr ""
+
+#: tfmgameoptions.tbcompcambiosecco.hint
+msgid "If the calculated result of a move is below that value the computer will apply the Cambio Secco if available"
+msgstr ""
+
+#: tfmgameoptions.tbcompchangeletters.hint
+msgctxt "tfmgameoptions.tbcompchangeletters.hint"
+msgid "The computer exchanges tiles if the best word receives less points and makes use of fewer tiles than specified."
+msgstr ""
+
+#: tfmgameoptions.tbcompchangevalue.hint
+msgctxt "TFMGAMEOPTIONS.TBCOMPCHANGEVALUE.HINT"
+msgid "The computer exchanges tiles if the best word receives less points and makes use of fewer tiles than specified."
+msgstr ""
+
+#: tfmgameoptions.tbcompexchange.hint
+msgid "Computer tries to exchange joker if the best word scores below the value"
+msgstr ""
+
+#: tfmgameoptions.tbcompperformance.hint
+msgid "The computer places a word less than the best"
+msgstr ""
+
+#: tfmgameoptions.tbcompusejoker.hint
+msgid "The computed does not use a joker if the word has a lower advance as specified to the second-best without joker"
+msgstr ""
+
+#: tfmgameoptions.tbdistance.hint
+msgid "Distance of the board"
+msgstr ""
+
+#: tfmgameoptions.tblightambient.hint
+msgid "Amount of ambient light"
+msgstr ""
+
+#: tfmgameoptions.tblightdiffuse.hint
+msgid "Amount of diffuse light"
+msgstr ""
+
+#: tfmgameoptions.tblightposx.hint
+msgid "Light source position at x-axis"
+msgstr ""
+
+#: tfmgameoptions.tblightposy.hint
+msgid "Light source position at y-axis"
+msgstr ""
+
+#: tfmgameoptions.tblightposz.hint
+msgid "Light source position at z-axis"
+msgstr ""
+
+#: tfmgameoptions.tbluminance.hint
+msgid "Adjust colouring of chat messages in network mode"
+msgstr ""
+
+#: tfmgameoptions.tbpitch.hint
+msgid "Rotation of the board at horizontal axis "
+msgstr ""
+
+#: tfmgameoptions.tbtranslation.hint
+msgid "Vertical translation of the board"
+msgstr ""
+
+#: tfmgameoptions.ts2dview.caption
+msgid "ts2DView"
+msgstr ""
+
+#: tfmgameoptions.tsboard.caption
+msgid "Board"
+msgstr ""
+
+#: tfmgameoptions.tsboardcolor.caption
+msgid "tsBoardColor"
+msgstr ""
+
+#: tfmgameoptions.tsboardconfig.caption
+msgid "tsBoardConfig"
+msgstr ""
+
+#: tfmgameoptions.tscategories.caption
+msgid "tsCategories"
+msgstr ""
+
+#: tfmgameoptions.tscompopt.caption
+msgid "tsCompOpt"
+msgstr ""
+
+#: tfmgameoptions.tscomputer.caption
+msgctxt "TFMGAMEOPTIONS.TSCOMPUTER.CAPTION"
+msgid "Computer"
+msgstr ""
+
+#: tfmgameoptions.tsdesign.caption
+msgid "tsDesign"
+msgstr ""
+
+#: tfmgameoptions.tsdesign.hint
+msgctxt "tfmgameoptions.tsdesign.hint"
+msgid "List of available designs"
+msgstr ""
+
+#: tfmgameoptions.tsdesigngeneral.caption
+msgctxt "TFMGAMEOPTIONS.TSDESIGNGENERAL.CAPTION"
+msgid "Design"
+msgstr ""
+
+#: tfmgameoptions.tsdictionary.caption
+msgctxt "TFMGAMEOPTIONS.TSDICTIONARY.CAPTION"
+msgid "Dictionary"
+msgstr ""
+
+#: tfmgameoptions.tsextra.caption
+msgid "tsExtra"
+msgstr ""
+
+#: tfmgameoptions.tsgame.caption
+msgctxt "TFMGAMEOPTIONS.TSGAME.CAPTION"
+msgid "Game"
+msgstr ""
+
+#: tfmgameoptions.tsletter.caption
+msgid "Letters"
+msgstr ""
+
+#: tfmgameoptions.tslocalization.caption
+msgid "Options"
+msgstr ""
+
+#: tfmgameoptions.tsmessages.caption
+msgid "tsMessages"
+msgstr ""
+
+#: tfmgameoptions.tsnetwork.caption
+msgid "tsNetwork"
+msgstr ""
+
+#: tfmgameoptions.tsplayercolor.caption
+msgid "tsPlayerColor"
+msgstr ""
+
+#: tfmgameoptions.tsrules.caption
+msgid "tsRules"
+msgstr ""
+
+#: tfmgameoptions.tsrulesoptions.caption
+msgctxt "TFMGAMEOPTIONS.TSRULESOPTIONS.CAPTION"
+msgid "Rules"
+msgstr ""
+
+#: tfmgameoptions.tstime.caption
+msgid "tsTime"
+msgstr ""
+
+#: tfmgameoptions.tswordcheckmode.caption
+msgid "tsWordCheckMode"
+msgstr ""
+
+#: tfmmain.acbestmove.caption
+msgid "&Best move"
+msgstr ""
+
+#: tfmmain.acbestmove.hint
+msgid "Compute best moves"
+msgstr ""
+
+#: tfmmain.accambiosecco.caption
+msgid "Cambio secco"
+msgstr ""
+
+#: tfmmain.accambiosecco.hint
+msgid "Exchange all bank letters"
+msgstr ""
+
+#: tfmmain.acchallenge.caption
+msgid "C&hallenge move"
+msgstr ""
+
+#: tfmmain.acchallenge.hint
+msgid "Object last move"
+msgstr ""
+
+#: tfmmain.acdemo.caption
+msgctxt "TFMMAIN.ACDEMO.CAPTION"
+msgid "Run &demo"
+msgstr ""
+
+#: tfmmain.acdemo.hint
+msgid "Run demo"
+msgstr ""
+
+#: tfmmain.acexit.caption
+msgid "E&xit"
+msgstr ""
+
+#: tfmmain.acexit.hint
+msgid "Exit program"
+msgstr ""
+
+#: tfmmain.acgameanalysis.caption
+msgid "Game &analysis"
+msgstr ""
+
+#: tfmmain.acgameanalysis.hint
+msgid "Run game analysis"
+msgstr ""
+
+#: tfmmain.achelp.caption
+msgid "&Help"
+msgstr ""
+
+#: tfmmain.achelp.hint
+msgid "Open Scrabble3D wiki in default internet browser"
+msgstr ""
+
+#: tfmmain.achighscore.caption
+msgid "S&tatistics"
+msgstr ""
+
+#: tfmmain.achighscore.hint
+msgid "Show statistics"
+msgstr ""
+
+#: tfmmain.ackibitz.caption
+msgctxt "tfmmain.ackibitz.caption"
+msgid "Kibitz"
+msgstr ""
+
+#: tfmmain.ackibitz.hint
+msgid "Make game private or public (permission to kibitz)"
+msgstr ""
+
+#: tfmmain.acload.caption
+msgid "&Load from..."
+msgstr ""
+
+#: tfmmain.acload.hint
+msgid "Load game"
+msgstr ""
+
+#: tfmmain.acnetwork.caption
+msgid "&Network"
+msgstr ""
+
+#: tfmmain.acnetwork.hint
+msgid "Start/End network game"
+msgstr ""
+
+#: tfmmain.acnewgame.caption
+msgid "New &game"
+msgstr ""
+
+#: tfmmain.acnewgame.hint
+msgid "Start new game"
+msgstr ""
+
+#: tfmmain.acnextplayer.caption
+msgid "&Next player"
+msgstr ""
+
+#: tfmmain.acnextplayer.hint
+msgid "Next player"
+msgstr ""
+
+#: tfmmain.acpause.caption
+msgid "&Pause"
+msgstr ""
+
+#: tfmmain.acpause.hint
+msgid "Pause time control"
+msgstr ""
+
+#: tfmmain.acrestore.caption
+msgid "&Restore board"
+msgstr ""
+
+#: tfmmain.acrestore.hint
+msgid "Remove all currently placed letters from board (crtl + right mouse button)"
+msgstr ""
+
+#: tfmmain.acsave.caption
+msgid "&Save as..."
+msgstr ""
+
+#: tfmmain.acsave.hint
+msgid "Save game"
+msgstr ""
+
+#: tfmmain.acscreenshot.caption
+msgid "Screens&hot"
+msgstr ""
+
+#: tfmmain.acscreenshot.hint
+msgid "Take a screenshot of 2D view and letters"
+msgstr ""
+
+#: tfmmain.acsettings.caption
+msgid "&Settings"
+msgstr ""
+
+#: tfmmain.acsettings.hint
+msgid "Configure game"
+msgstr ""
+
+#: tfmmain.acshufflepieces.caption
+msgid "Shuffle pieces"
+msgstr ""
+
+#: tfmmain.acwordsearch.caption
+msgid "&Word search"
+msgstr ""
+
+#: tfmmain.acwordsearch.hint
+msgid "Search in dictionary"
+msgstr ""
+
+#: tfmmain.caption
+msgid "Scrabble3D"
+msgstr ""
+
+#: tfmmain.chscore.hint
+msgid "Score and used time"
+msgstr ""
+
+#: tfmmain.edchat.hint
+msgid "Message to send"
+msgstr ""
+
+#: tfmmain.lbmessages.hint
+msgctxt "TFMMAIN.LBMESSAGES.HINT"
+msgid "Messages"
+msgstr ""
+
+#: tfmmain.lbtimer.caption
+msgid "0:00:00"
+msgstr ""
+
+#: tfmmain.lbtimer.hint
+msgid "Time left, if time control is active"
+msgstr ""
+
+#: tfmmain.mi3dtoolbar.caption
+msgid "Show toolbar"
+msgstr ""
+
+#: tfmmain.miabout.caption
+msgid "A&bout"
+msgstr ""
+
+#: tfmmain.miabout.hint
+msgid "Show information about Scrabble3D"
+msgstr ""
+
+#: tfmmain.miassistant.caption
+msgid "&Assistant"
+msgstr ""
+
+#: tfmmain.miassistant.hint
+msgid "(Re-)run configuration assistent"
+msgstr ""
+
+#: tfmmain.mibest.caption
+msgid "Best players"
+msgstr ""
+
+#: tfmmain.mibest.hint
+msgid "Retrieve values of best players."
+msgstr ""
+
+#: tfmmain.mibestmove.caption
+msgid "Compute &best word"
+msgstr ""
+
+#: tfmmain.mibestmove.hint
+msgid "Compute best word but don't place"
+msgstr ""
+
+#: tfmmain.michallenge.hint
+msgctxt "TFMMAIN.MICHALLENGE.HINT"
+msgid "Challenge last move"
+msgstr ""
+
+#: tfmmain.miconfiguration.caption
+msgid "&Configuration"
+msgstr ""
+
+#: tfmmain.midx.caption
+msgid "x-axis"
+msgstr ""
+
+#: tfmmain.midy.caption
+msgid "y-axis"
+msgstr ""
+
+#: tfmmain.midz.caption
+msgid "z-axis"
+msgstr ""
+
+#: tfmmain.mifacebook.caption
+msgid "Social &media... (Facebook)"
+msgstr ""
+
+#: tfmmain.mifacebook.hint
+msgid "Open Facebook in default internet browser"
+msgstr ""
+
+#: tfmmain.mifile.caption
+msgid "&File"
+msgstr ""
+
+#: tfmmain.miformize.caption
+msgid "Transform into separate window"
+msgstr ""
+
+#: tfmmain.miforum.caption
+msgid "&Discussions... (Forum)"
+msgstr ""
+
+#: tfmmain.miforum.hint
+msgid "Open Scrabble3D forum in default internet browser"
+msgstr ""
+
+#: tfmmain.migame.caption
+msgid "&Game"
+msgstr ""
+
+#: tfmmain.migameanalysis.hint
+msgid "Run a complete post-hoc analysis of ended game"
+msgstr ""
+
+#: tfmmain.mihelp.caption
+msgid "Online &help... (Wiki)"
+msgstr ""
+
+#: tfmmain.miinformation.caption
+msgctxt "tfmmain.miinformation.caption"
+msgid "&Information"
+msgstr ""
+
+#: tfmmain.miinvite.caption
+msgid "Invite"
+msgstr ""
+
+#: tfmmain.mikibitz.caption
+msgctxt "TFMMAIN.MIKIBITZ.CAPTION"
+msgid "Kibitz"
+msgstr ""
+
+#: tfmmain.mileave.caption
+msgid "Leave"
+msgstr ""
+
+#: tfmmain.milettersleft.caption
+msgctxt "TFMMAIN.MILETTERSLEFT.CAPTION"
+msgid "Letters left"
+msgstr ""
+
+#: tfmmain.milocalization.caption
+msgid "&Localization... (Transifex)"
+msgstr ""
+
+#: tfmmain.milocalization.hint
+msgid "Open translation project in default internet browser"
+msgstr ""
+
+#: tfmmain.mimessage.caption
+msgid "Message"
+msgstr ""
+
+#: tfmmain.minews.caption
+msgid "&News... (Twitter)"
+msgstr ""
+
+#: tfmmain.minews.hint
+msgid "Open Twitter in default internet browser"
+msgstr ""
+
+#: tfmmain.mirackheader.caption
+msgid "Header"
+msgstr ""
+
+#: tfmmain.mirefresh.caption
+msgid "Refresh"
+msgstr ""
+
+#: tfmmain.miscore.caption
+msgid "Game score"
+msgstr ""
+
+#: tfmmain.miscreenshot.caption
+msgid "S&creenshot..."
+msgstr ""
+
+#: tfmmain.miseparator.caption
+msgctxt "TFMMAIN.MISEPARATOR.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator1.caption
+msgctxt "TFMMAIN.MISEPARATOR1.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator2.caption
+msgctxt "tfmmain.miseparator2.caption"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator3.caption
+msgctxt "TFMMAIN.MISEPARATOR3.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator4.caption
+msgctxt "TFMMAIN.MISEPARATOR4.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator5.caption
+msgctxt "TFMMAIN.MISEPARATOR5.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator6.caption
+msgctxt "TFMMAIN.MISEPARATOR6.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.miseparator7.caption
+msgctxt "TFMMAIN.MISEPARATOR7.CAPTION"
+msgid "-"
+msgstr ""
+
+#: tfmmain.mistate.caption
+msgid "Open for games"
+msgstr ""
+
+#: tfmmain.mitimeleft.caption
+msgctxt "TFMMAIN.MITIMELEFT.CAPTION"
+msgid "Time left"
+msgstr ""
+
+#: tfmmain.miupdate.caption
+msgctxt "tfmmain.miupdate.caption"
+msgid "Check for &updates"
+msgstr ""
+
+#: tfmmain.miupdate.hint
+msgid "Keep program and available data up-to-date"
+msgstr ""
+
+#: tfmmain.pbplayer.hint
+msgid "Player names (framed player is on turn)"
+msgstr ""
+
+#: tfmmain.pbpoints.hint
+msgid "Points for currently placed word"
+msgstr ""
+
+#: tfmmain.pbprogress.hint
+msgid "Progress"
+msgstr ""
+
+#: tfmmain.pn2dheader.caption
+msgid "2D view"
+msgstr ""
+
+#: tfmmain.pn2dheader.hint
+msgid "2D view or active plane in 3D mode"
+msgstr ""
+
+#: tfmmain.pn3dheader.caption
+msgid "3D view"
+msgstr ""
+
+#: tfmmain.pn3dheader.hint
+msgid "3D view of scrabble board; use mouse buttons in combination with ctrl and alt for functions"
+msgstr ""
+
+#: tfmmain.pnmessagesheader.caption
+msgid "Information"
+msgstr ""
+
+#: tfmmain.pnmessagesheader.hint
+msgid "Use tabs at bottom for further information"
+msgstr ""
+
+#: tfmmain.pnpiecesheader.caption
+msgid "Rack"
+msgstr ""
+
+#: tfmmain.pnpiecesheader.hint
+msgid "available tiles; left mouse button for dragging, right to mark/unmark for exchange; ctrl+right mouse button to jokerize"
+msgstr ""
+
+#: tfmmain.savedialog.title
+msgid "Save file as..."
+msgstr ""
+
+#: tfmmain.sebestmove.hint
+msgctxt "tfmmain.sebestmove.hint"
+msgid "Browse through computed moves"
+msgstr ""
+
+#: tfmmain.tbbackward.hint
+msgid "Last position (axis and dimension)"
+msgstr ""
+
+#: tfmmain.tbbrightness.hint
+msgid "Change transparency (alt + mouse wheel)"
+msgstr ""
+
+#: tfmmain.tbchallenge.hint
+msgctxt "tfmmain.tbchallenge.hint"
+msgid "Challenge last move"
+msgstr ""
+
+#: tfmmain.tbcubereset.hint
+msgid "Restore original position and rotation"
+msgstr ""
+
+#: tfmmain.tbdimension.hint
+msgid "Change active dimension (ctrl + right mouse click)"
+msgstr ""
+
+#: tfmmain.tbforward.hint
+msgid "Next position (axis and dimension)"
+msgstr ""
+
+#: tfmmain.tbnewgame.caption
+msgid "New game"
+msgstr ""
+
+#: tfmmain.tbposition.hint
+msgid "Change active dimension's position (Ctrl + mouse wheel)"
+msgstr ""
+
+#: tfmmain.tbzoom.hint
+msgid "Zoom in/out (mouse wheel)"
+msgstr ""
+
+#: tfmmain.tsgamecourse.caption
+msgid "Game Course"
+msgstr ""
+
+#: tfmmain.tsgameserver.caption
+msgid "Game Server"
+msgstr ""
+
+#: tfmmain.tsmessages.caption
+msgctxt "TFMMAIN.TSMESSAGES.CAPTION"
+msgid "Messages"
+msgstr ""
+
+#: tfmmain.tsscore.caption
+msgctxt "TFMMAIN.TSSCORE.CAPTION"
+msgid "Score"
+msgstr ""
+
+#: tfmmain.udbestmove.hint
+msgctxt "TFMMAIN.UDBESTMOVE.HINT"
+msgid "Browse through computed moves"
+msgstr ""
+
+#: tfmnetwork.btnnetworkcancel.caption
+msgid "Abbrechen"
+msgstr ""
+
+#: tfmnetwork.btnnetworkcancel.hint
+msgid "Abort connection"
+msgstr ""
+
+#: tfmnetwork.btnnetworkok.caption
+msgctxt "TFMNETWORK.BTNNETWORKOK.CAPTION"
+msgid "&Ok"
+msgstr ""
+
+#: tfmnetwork.btnnetworkok.hint
+msgid "Connect now"
+msgstr ""
+
+#: tfmnetwork.caption
+msgctxt "TFMNETWORK.CAPTION"
+msgid "Network"
+msgstr ""
+
+#: tfmnetwork.cbcountry.hint
+msgctxt "tfmnetwork.cbcountry.hint"
+msgid "Optionally, tell other player where you come from"
+msgstr ""
+
+#: tfmnetwork.cbcountry.text
+msgid "Afghanistan"
+msgstr ""
+
+#: tfmnetwork.cbwanserver.hint
+msgid "If more than one game server is available you can choose to which you want to connect"
+msgstr ""
+
+#: tfmnetwork.cbwanserver.text
+msgid "scrabble.game-server.cc"
+msgstr ""
+
+#: tfmnetwork.edcity.hint
+msgctxt "TFMNETWORK.EDCITY.HINT"
+msgid "Optionally, tell other player where you come from"
+msgstr ""
+
+#: tfmnetwork.edemail.hint
+msgid "Optionally, provide your email address to receive messages from game server"
+msgstr ""
+
+#: tfmnetwork.edloginlan.hint
+msgid "The nick name identifies you in the game"
+msgstr ""
+
+#: tfmnetwork.edloginwan.hint
+msgid "The nick name which identifies you at the game server"
+msgstr ""
+
+#: tfmnetwork.ednetworkport.hint
+msgid "Players communicate through this port"
+msgstr ""
+
+#: tfmnetwork.ednetworkport.text
+msgid "5001"
+msgstr ""
+
+#: tfmnetwork.edpassword.hint
+msgid "A simple (no encryption!) password to avoid other players using your choosen nick name"
+msgstr ""
+
+#: tfmnetwork.edserveraddr.hint
+msgid "Insert name or IP address of server"
+msgstr ""
+
+#: tfmnetwork.lbcity.caption
+msgid "C&ity"
+msgstr ""
+
+#: tfmnetwork.lbcountry.caption
+msgid "&Country"
+msgstr ""
+
+#: tfmnetwork.lbemail.caption
+msgid "&Email"
+msgstr ""
+
+#: tfmnetwork.lbloginlan.caption
+msgctxt "TFMNETWORK.LBLOGINLAN.CAPTION"
+msgid "&Login name"
+msgstr ""
+
+#: tfmnetwork.lbloginwan.caption
+msgctxt "tfmnetwork.lbloginwan.caption"
+msgid "&Login name"
+msgstr ""
+
+#: tfmnetwork.lbnetworkport.caption
+msgid "TCP &port"
+msgstr ""
+
+#: tfmnetwork.lbpassword.caption
+msgid "&Password"
+msgstr ""
+
+#: tfmnetwork.lbwanserver.caption
+msgid "&Select the game server you want to connect to:"
+msgstr ""
+
+#: tfmnetwork.pcconnection.hint
+msgid "Select 'Game server' to play with any other people or 'Direct connection' if you know your mates' ip address or hostname."
+msgstr ""
+
+#: tfmnetwork.rbclient.caption
+msgid "&Client"
+msgstr ""
+
+#: tfmnetwork.rbclient.hint
+msgid "Choose client to connect to a server via host name or IP number"
+msgstr ""
+
+#: tfmnetwork.rbserver.caption
+msgid "&Server"
+msgstr ""
+
+#: tfmnetwork.rbserver.hint
+msgid "Designate one server; up to three clients connect to this address"
+msgstr ""
+
+#: tfmnetwork.tslan.caption
+msgid "&Direct connection"
+msgstr ""
+
+#: tfmnetwork.tswan.caption
+msgid "&Game server"
+msgstr ""
+
+#: tfmnewgame.btnnewgamecancel.caption
+msgctxt "TFMNEWGAME.BTNNEWGAMECANCEL.CAPTION"
+msgid "&Cancel"
+msgstr ""
+
+#: tfmnewgame.btnnewgameok.caption
+msgid "&OK"
+msgstr ""
+
+#: tfmnewgame.btnnewgameok.hint
+msgid "Start the game"
+msgstr ""
+
+#: tfmnewgame.caption
+msgctxt "TFMNEWGAME.CAPTION"
+msgid "New Game"
+msgstr ""
+
+#: tfmnewgame.cbautopause.caption
+msgid "&Auto pause in local games"
+msgstr ""
+
+#: tfmnewgame.cbautopause.hint
+msgid "Enable this option to make sure that your letters are not seen by the opponents"
+msgstr ""
+
+#: tfmnewgame.cbconfiguration.hint
+msgid "Select one of your predefined settings for the game"
+msgstr ""
+
+#: tfmnewgame.cbplayer1.text
+msgid "ABC"
+msgstr ""
+
+#: tfmnewgame.cbplayer2.text
+msgid "cbPlayer2"
+msgstr ""
+
+#: tfmnewgame.cbplayer3.text
+msgid "cbPlayer3"
+msgstr ""
+
+#: tfmnewgame.cbplayer4.text
+msgid "cbPlayer4"
+msgstr ""
+
+#: tfmnewgame.gbconfig.caption
+msgid "Configuration"
+msgstr ""
+
+#: tfmnewgame.gbconfig.hint
+msgid "Summary of game settings"
+msgstr ""
+
+#: tfmnewgame.gbplayers.caption
+msgctxt "TFMNEWGAME.GBPLAYERS.CAPTION"
+msgid "Players"
+msgstr ""
+
+#: tfmnewgame.gbplayers.hint
+msgid "Select the number of players and give them names. 'Computer' is used for PC as opponent."
+msgstr ""
+
+#: tfmnewgame.lbconfigpresets.caption
+msgid "Presets:"
+msgstr ""
+
+#: tfmnewgame.rb1player.caption
+msgid "1 player"
+msgstr ""
+
+#: tfmnewgame.rb2player.caption
+msgid "2 player"
+msgstr ""
+
+#: tfmnewgame.rb3player.caption
+msgid "3 player"
+msgstr ""
+
+#: tfmnewgame.rb4player.caption
+msgid "4 player"
+msgstr ""
+
+#: tfmnewgame.sgpreset.columns[0].title.caption
+msgctxt "TFMNEWGAME.SGPRESET.COLUMNS[0].TITLE.CAPTION"
+msgid "Key"
+msgstr ""
+
+#: tfmnewgame.sgpreset.columns[1].title.caption
+msgctxt "TFMNEWGAME.SGPRESET.COLUMNS[1].TITLE.CAPTION"
+msgid "Value"
+msgstr ""
+
+#: tfmremote.btnremotecancel.caption
+msgctxt "tfmremote.btnremotecancel.caption"
+msgid "&Cancel"
+msgstr ""
+
+#: tfmremote.btnremoteload.caption
+msgctxt "TFMREMOTE.BTNREMOTELOAD.CAPTION"
+msgid "&Load"
+msgstr ""
+
+#: tfmremote.btnremoteload.hint
+msgid "Load the selected game"
+msgstr ""
+
+#: tfmremote.caption
+msgid "Stored games"
+msgstr ""
+
+#: tfmremote.sgremote.columns[0].title.caption
+msgid "+"
+msgstr ""
+
+#: tfmremote.sgremote.columns[1].title.caption
+msgid "Date"
+msgstr ""
+
+#: tfmremote.sgremote.columns[2].title.caption
+msgid "Last Access"
+msgstr ""
+
+#: tfmremote.sgremote.columns[3].title.caption
+msgctxt "tfmremote.sgremote.columns[3].title.caption"
+msgid "Players"
+msgstr ""
+
+#: tfmremote.sgremote.columns[4].title.caption
+msgid "#Moves"
+msgstr ""
+
+#: tfmremote.sgremote.columns[5].title.caption
+msgid "Filename"
+msgstr ""
+
+#: tfmremote.sgremote.hint
+msgid "Select the game you want to reload"
+msgstr ""
+
+#: tfmstatistics.caption
+msgid "Statistics"
+msgstr ""
+
+#: tfmwelcome.btnwelcomeback.caption
+msgid "&Back"
+msgstr ""
+
+#: tfmwelcome.btnwelcomeback.hint
+msgid "Go to the last wizard step "
+msgstr ""
+
+#: tfmwelcome.btnwelcomecancel.caption
+msgctxt "TFMWELCOME.BTNWELCOMECANCEL.CAPTION"
+msgid "&Cancel"
+msgstr ""
+
+#: tfmwelcome.btnwelcomecancel.hint
+msgid "Abort this wizard"
+msgstr ""
+
+#: tfmwelcome.btnwelcomenext.caption
+msgctxt "TFMWELCOME.BTNWELCOMENEXT.CAPTION"
+msgid "&Next"
+msgstr ""
+
+#: tfmwelcome.btnwelcomenext.hint
+msgid "Go to the next wizard step"
+msgstr ""
+
+#: tfmwelcome.caption
+msgid "Welcome to Scrabble3D"
+msgstr ""
+
+#: tfmwelcome.lbstep.caption
+msgid "lbStep"
+msgstr ""
+
+#: tfmwelcome.lbwelcome.caption
+msgid "This dialogue will guide you through the first configuration steps. You need an internet connection to download additional files, i.e. translation and dictionary. Please make sure you are connected. All settings can be changed later in the program configuration."
+msgstr ""
+
+#: tfmwordsearch.btnadd.caption
+msgid "&Add/Change"
+msgstr ""
+
+#: tfmwordsearch.btnadd.hint
+msgid "Add or change the current word"
+msgstr ""
+
+#: tfmwordsearch.btndelete.caption
+msgid "&Delete"
+msgstr ""
+
+#: tfmwordsearch.btndelete.hint
+msgid "Delete the word from dictionary"
+msgstr ""
+
+#: tfmwordsearch.caption
+msgid "Word search"
+msgstr ""
+
+#: tfmwordsearch.cbcategory.hint
+msgid "Each word can be assigned to a category"
+msgstr ""
+
+#: tfmwordsearch.edpattern.hint
+msgid "Pattern to search for"
+msgstr ""
+
+#: tfmwordsearch.edword.hint
+msgid "Search for word in dictionary (white=found, yellow=found, but category is deselected, red = not found)"
+msgstr ""
+
+#: tfmwordsearch.gbsearch.caption
+msgid "Search"
+msgstr ""
+
+#: tfmwordsearch.gbword.caption
+msgctxt "tfmwordsearch.gbword.caption"
+msgid "Words"
+msgstr ""
+
+#: tfmwordsearch.lbpattern.caption
+msgid "&Pattern:"
+msgstr ""
+
+#: tfmwordsearch.lbword.caption
+msgid "W&ord:"
+msgstr ""
+
+#: tfmwordsearch.lbwordcategory.caption
+msgid "&Category:"
+msgstr ""
+
+#: tfmwordsearch.lbwordmeaning.caption
+msgid "&Meaning:"
+msgstr ""
+
+#: tfmwordsearch.lbwordnumber.caption
+msgid "&Number:"
+msgstr ""
+
+#: tfmwordsearch.miwordsearchcopy.caption
+msgctxt "TFMWORDSEARCH.MIWORDSEARCHCOPY.CAPTION"
+msgid "Copy"
+msgstr ""
+
+#: tfmwordsearch.mmwordmeaning.hint
+msgid "A word can have a description, translation etc."
+msgstr ""
+
+#: tfmwordsearch.rgsearchtype.caption
+msgid "&Search type"
+msgstr ""
+
+#: tfmwordsearch.rgsearchtype.hint
+msgid "Type of search"
+msgstr ""
+
+#: tfmwordsearch.sewordnumber.hint
+msgid "Entry number in dictionary"
+msgstr ""
+
+#: tfmwordsearch.sgsearchresult.columns[0].title.caption
+msgctxt "TFMWORDSEARCH.SGSEARCHRESULT.COLUMNS[0].TITLE.CAPTION"
+msgid "Words"
+msgstr ""
+
+#: tfmwordsearch.sgsearchresult.hint
+msgid "Click on the header to sort either by letters or word length"
+msgstr ""
+
+#: tfmwordsearch.stwordcount.caption
+msgid "0"
+msgstr ""
+
+#: tform1.caption
+msgid "Form1"
+msgstr ""
+
+#: ulanguage.rbruteforce_novalidwords
+msgid "No valid words found"
+msgstr ""
+
+#: ulanguage.rcommand_help1
+msgid "Commands start with / and have mandatory parameters {} (curly brackets to omit)."
+msgstr ""
+
+#: ulanguage.rcommand_help2
+msgid "/whisper {receiver} {message} - Whispers message to receiver. E.g. /whisper Scotty Hello World. If the name of the receiver contains spaces it should be enclosed in double quotes, e.g. /whisper \"Miss Liberty\" Hello"
+msgstr ""
+
+#: ulanguage.rcommand_help3
+msgid "/say {message} - Tells message to current group members. E.g. /say Hello World"
+msgstr ""
+
+#: ulanguage.rcommand_help4
+msgid "/shout {message} - Tells message to all players that are connected."
+msgstr ""
+
+#: ulanguage.rcommand_help5
+msgid "/tattle {message} - Tells message to all kibitzes at current group."
+msgstr ""
+
+#: ulanguage.rcommand_help6
+msgid "/finger {player} - Pull information about player."
+msgstr ""
+
+#: ulanguage.rcommand_help7
+msgid "/best - List best players by rating."
+msgstr ""
+
+#: ulanguage.rcommand_unknown
+msgid "Unknown command"
+msgstr ""
+
+#: ulanguage.rcommand_wrong
+msgid "Wrong command syntax"
+msgstr ""
+
+#: ulanguage.rdictionary_loading
+msgid "loading dictionary %s"
+msgstr ""
+
+#: ulanguage.rdictionary_save
+msgid "Dictionary has been changed. Save now?"
+msgstr ""
+
+#: ulanguage.rdictionary_unassigned
+msgid "unassigned"
+msgstr ""
+
+#: ulanguage.rdiscoaccounts
+msgid "Too many accounts"
+msgstr ""
+
+#: ulanguage.rdiscobanned
+msgid "You are banned on this server"
+msgstr ""
+
+#: ulanguage.rdiscoconnections
+msgid "Too many connections"
+msgstr ""
+
+#: ulanguage.rdisconame
+msgid "Please choose another name"
+msgstr ""
+
+#: ulanguage.rdiscopassword
+msgid "Wrong username or password"
+msgstr ""
+
+#: ulanguage.rdiscorelease
+msgid "Please update your application"
+msgstr ""
+
+#: ulanguage.rfielddoubleletter
+msgctxt "ulanguage.rfielddoubleletter"
+msgid "double letter"
+msgstr ""
+
+#: ulanguage.rfielddoublemalus
+msgctxt "ulanguage.rfielddoublemalus"
+msgid "double letter malus"
+msgstr ""
+
+#: ulanguage.rfielddoubleword
+msgctxt "ulanguage.rfielddoubleword"
+msgid "double word"
+msgstr ""
+
+#: ulanguage.rfieldnewletter
+msgctxt "ulanguage.rfieldnewletter"
+msgid "new letter"
+msgstr ""
+
+#: ulanguage.rfieldnormal
+msgid "normal field"
+msgstr ""
+
+#: ulanguage.rfieldplacedletter
+msgid "placed letter"
+msgstr ""
+
+#: ulanguage.rfieldquadletter
+msgctxt "ulanguage.rfieldquadletter"
+msgid "quad letter"
+msgstr ""
+
+#: ulanguage.rfieldquadmalus
+msgctxt "ulanguage.rfieldquadmalus"
+msgid "quad letter malus"
+msgstr ""
+
+#: ulanguage.rfieldquadword
+msgctxt "ulanguage.rfieldquadword"
+msgid "quad word"
+msgstr ""
+
+#: ulanguage.rfieldsinglemalus
+msgctxt "ulanguage.rfieldsinglemalus"
+msgid "single letter malus"
+msgstr ""
+
+#: ulanguage.rfieldstart
+msgid "start field"
+msgstr ""
+
+#: ulanguage.rfieldtripleletter
+msgctxt "ulanguage.rfieldtripleletter"
+msgid "triple letter"
+msgstr ""
+
+#: ulanguage.rfieldtriplemalus
+msgctxt "ulanguage.rfieldtriplemalus"
+msgid "triple letter malus"
+msgstr ""
+
+#: ulanguage.rfieldtripleword
+msgctxt "ulanguage.rfieldtripleword"
+msgid "triple word"
+msgstr ""
+
+#: ulanguage.rgamecourse_col0
+msgid "#"
+msgstr ""
+
+#: ulanguage.rgamecourse_col1
+msgid "Word"
+msgstr ""
+
+#: ulanguage.rgamecourse_col2
+msgctxt "ulanguage.rgamecourse_col2"
+msgid "Value"
+msgstr ""
+
+#: ulanguage.rgamecourse_col3
+msgid "Best"
+msgstr ""
+
+#: ulanguage.rgamecourse_col4
+msgid "Time"
+msgstr ""
+
+#: ulanguage.rgamecourse_hint
+msgid "Click on the header to sort by column"
+msgstr ""
+
+#: ulanguage.rgamecourse_menu1
+msgid "Clear best values"
+msgstr ""
+
+#: ulanguage.rmain_abort
+msgid "Abort"
+msgstr ""
+
+#: ulanguage.rmain_addtimeerror1
+msgid "Time control settings do not allow to add 60 seconds"
+msgstr ""
+
+#: ulanguage.rmain_addtimeerror2
+msgid "Not enough points to add time"
+msgstr ""
+
+#: ulanguage.rmain_allfiles
+msgid "All files"
+msgstr ""
+
+#: ulanguage.rmain_allwordsvalid
+msgid "All words are valid. A penalty of %d point was deducted from %s's result|All words are valid. A penalty of %d points was deducted from %s's result"
+msgstr ""
+
+#: ulanguage.rmain_autodeclines
+msgid "You rejected a poll automatically"
+msgstr ""
+
+#: ulanguage.rmain_calccomp
+msgid "but computer suggests to place"
+msgstr ""
+
+#: ulanguage.rmain_calcresult
+msgid "Only %d valid word found which score with|Out of %d possible words found the best would score with"
+msgstr ""
+
+#: ulanguage.rmain_cambiosecco
+msgid "Do you really want to use the Cambio Secco now?"
+msgstr ""
+
+#: ulanguage.rmain_cambioseccoused
+msgid "%s utilizes the Cambio Secco."
+msgstr ""
+
+#: ulanguage.rmain_challenge
+msgid "Do you want to challenge last move?"
+msgstr ""
+
+#: ulanguage.rmain_chat
+msgid "Type in message to send to"
+msgstr ""
+
+#: ulanguage.rmain_chatgroup
+msgid "group"
+msgstr ""
+
+#: ulanguage.rmain_chatkibitz
+msgid "%s tattles: %s"
+msgstr ""
+
+#: ulanguage.rmain_chatkibitzes
+msgid "kibitzes"
+msgstr ""
+
+#: ulanguage.rmain_chatsay
+msgid "%s says: %s"
+msgstr ""
+
+#: ulanguage.rmain_chatserver
+msgid "server"
+msgstr ""
+
+#: ulanguage.rmain_chatshout
+msgid "%s shouts: %s"
+msgstr ""
+
+#: ulanguage.rmain_chatwhisper
+msgid "%s whispers: %s"
+msgstr ""
+
+#: ulanguage.rmain_closenetwork
+msgid "Really close network?"
+msgstr ""
+
+#: ulanguage.rmain_decline
+msgid "%s declined"
+msgstr ""
+
+#: ulanguage.rmain_declinesgeneral
+msgid "%s declines"
+msgstr ""
+
+#: ulanguage.rmain_demopause
+msgid "Demo has been paused"
+msgstr ""
+
+#: ulanguage.rmain_demorun
+msgctxt "ulanguage.rmain_demorun"
+msgid "Run &demo"
+msgstr ""
+
+#: ulanguage.rmain_demostop
+msgid "Stop &demo"
+msgstr ""
+
+#: ulanguage.rmain_demounpause
+msgid "Demo will be continued"
+msgstr ""
+
+#: ulanguage.rmain_errorconnection
+msgid "No connection"
+msgstr ""
+
+#: ulanguage.rmain_errordimension
+msgid "Not in one dimension placed"
+msgstr ""
+
+#: ulanguage.rmain_errorfirstmove
+msgid "First move not at the (grey) start point"
+msgstr ""
+
+#: ulanguage.rmain_errorlowscore
+msgid "Move's score is below"
+msgstr ""
+
+#: ulanguage.rmain_errorrules
+msgid "Rule violation"
+msgstr ""
+
+#: ulanguage.rmain_errorsuccessive
+msgid "Not successively placed"
+msgstr ""
+
+#: ulanguage.rmain_errorunknownwords
+msgid "The word %s is not known.|The words %s are unknown."
+msgstr ""
+
+#: ulanguage.rmain_exchange2d
+msgid "%s exchanged joker at %s,%s by %s"
+msgstr ""
+
+#: ulanguage.rmain_exchange3d
+msgid "%s exchanged joker at %s,%s,%s by %s"
+msgstr ""
+
+#: ulanguage.rmain_gameanalysis
+msgid "game analysis"
+msgstr ""
+
+#: ulanguage.rmain_gameend
+msgid "Game end"
+msgstr ""
+
+#: ulanguage.rmain_gameendbonus
+msgid "%s receives %d point bonus.|%s receives %d points bonus."
+msgstr ""
+
+#: ulanguage.rmain_gameenddraw
+msgid "Draw!"
+msgstr ""
+
+#: ulanguage.rmain_gameendletterleft
+msgid "%s has letters left: %s"
+msgstr ""
+
+#: ulanguage.rmain_gameendminus
+msgid "%s: %d minus %d ="
+msgstr ""
+
+#: ulanguage.rmain_gameendminusjoker
+msgid "%s: %d minus %d, minus %d for jokers ="
+msgstr ""
+
+#: ulanguage.rmain_gameendplus
+msgid "%s: %d plus %d ="
+msgstr ""
+
+#: ulanguage.rmain_gameendwin
+msgid "%s wins the game"
+msgstr ""
+
+#: ulanguage.rmain_gameserverinfo
+msgid "Game started %s, move #%d"
+msgstr ""
+
+#: ulanguage.rmain_hintcity
+msgid "City:"
+msgstr ""
+
+#: ulanguage.rmain_hintcountry
+msgctxt "ulanguage.rmain_hintcountry"
+msgid "Country:"
+msgstr ""
+
+#: ulanguage.rmain_hintgames
+msgid "#Games:"
+msgstr ""
+
+#: ulanguage.rmain_hintmenu
+msgid "Menu lang:"
+msgstr ""
+
+#: ulanguage.rmain_hintrating
+msgid "Rating:"
+msgstr ""
+
+#: ulanguage.rmain_hintregistered
+msgid "Registered:"
+msgstr ""
+
+#: ulanguage.rmain_hintrelease
+msgid "Release:"
+msgstr ""
+
+#: ulanguage.rmain_infoappstarted
+msgid "Application has been started"
+msgstr ""
+
+#: ulanguage.rmain_infonewgamestarted
+msgid "New game has been started"
+msgstr ""
+
+#: ulanguage.rmain_invalid
+msgid "Invalid move:"
+msgstr ""
+
+#: ulanguage.rmain_invitecountry
+msgctxt "ulanguage.rmain_invitecountry"
+msgid "Country:"
+msgstr ""
+
+#: ulanguage.rmain_invitedictionary
+msgid "Dictionary:"
+msgstr ""
+
+#: ulanguage.rmain_invitegame
+msgid "%s invites you to a new game."
+msgstr ""
+
+#: ulanguage.rmain_invitekibitz
+msgid "%s invites you to kibitz."
+msgstr ""
+
+#: ulanguage.rmain_invitelang
+msgid "Language:"
+msgstr ""
+
+#: ulanguage.rmain_join
+msgid "%s joins the game"
+msgstr ""
+
+#: ulanguage.rmain_joined
+msgid "joined"
+msgstr ""
+
+#: ulanguage.rmain_jokerreplace
+msgid "Choose letter to insert"
+msgstr ""
+
+#: ulanguage.rmain_kickedbyanother
+msgid "You have been kicked because another player logged in with your name."
+msgstr ""
+
+#: ulanguage.rmain_leader
+msgid "Gameserver welcomes the highscore leader: %s"
+msgstr ""
+
+#: ulanguage.rmain_leave
+msgid "%s leaves group"
+msgstr ""
+
+#: ulanguage.rmain_lettersexchanged
+msgid "%d letter has been exchanged|%d letters have been exchanged"
+msgstr ""
+
+#: ulanguage.rmain_loaddictionary
+msgid "Please load a dictionary"
+msgstr ""
+
+#: ulanguage.rmain_loadgame
+msgid "Requesting saved games from server..."
+msgstr ""
+
+#: ulanguage.rmain_loadingfinished
+msgid "Game has been loaded successfully"
+msgstr ""
+
+#: ulanguage.rmain_loadsuccess
+msgid "Savegame %s has been loaded"
+msgstr ""
+
+#: ulanguage.rmain_login
+msgid "%s has been logged in."
+msgstr ""
+
+#: ulanguage.rmain_logout
+msgid "%s has been logged out."
+msgstr ""
+
+#: ulanguage.rmain_lostbytime
+msgid "Final time out for %s. Result has been zeroed"
+msgstr ""
+
+#: ulanguage.rmain_makeprivatef
+msgid "%s wants to make the game private (no kibitzing allowed). Accept?"
+msgstr ""
+
+#: ulanguage.rmain_makepublicf
+msgid "%s wants to make the game public (kibitzes are welcome). Accept?"
+msgstr ""
+
+#: ulanguage.rmain_menuloadlocal
+msgid "Load from..."
+msgstr ""
+
+#: ulanguage.rmain_menuloadnetwork
+msgid "Load remote game..."
+msgstr ""
+
+#: ulanguage.rmain_menusavelocal
+msgid "Save as..."
+msgstr ""
+
+#: ulanguage.rmain_menusavenetwork
+msgid "Save local copy..."
+msgstr ""
+
+#: ulanguage.rmain_messagestored
+msgid "Recipient is not online. Your message is stored and will be transmitted on next connection"
+msgstr ""
+
+#: ulanguage.rmain_moveresult
+msgid "%0:s places %1:s at %2:s and receives"
+msgstr ""
+
+#: ulanguage.rmain_networkclosed
+msgid "network closed"
+msgstr ""
+
+#: ulanguage.rmain_networkdown
+msgid "No connection to game server for more than one minute!"
+msgstr ""
+
+#: ulanguage.rmain_networksettings
+msgid "Network settings by %s"
+msgstr ""
+
+#: ulanguage.rmain_networkstartnewgame
+msgid "%s wants to start a new game"
+msgstr ""
+
+#: ulanguage.rmain_noletters
+msgid "No letters placed"
+msgstr ""
+
+#: ulanguage.rmain_notfound
+msgid "not found"
+msgstr ""
+
+#: ulanguage.rmain_numberofpasses
+msgid "Only %d pass left until game end|%d passes until game end"
+msgstr ""
+
+#: ulanguage.rmain_otherdictionary
+msgid "Game was played with another dictionary: "
+msgstr ""
+
+#: ulanguage.rmain_ownmove
+msgid "It's your turn"
+msgstr ""
+
+#: ulanguage.rmain_pausef
+msgid "%s would like to pause the game. Accept?"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror1
+msgctxt "ulanguage.rmain_pieceerror1"
+msgid "Not allowed after joker exchange"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror10
+msgid "You may not jokerize unless its your turn"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror2
+msgid "No placing possible after tiles have been marked for exchange"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror3
+msgid "No tile exchange possible after placing"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror4
+msgctxt "ulanguage.rmain_pieceerror4"
+msgid "Not allowed after joker exchange"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror5
+msgid "Not enough letters left"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror6
+msgid "No jokerization after tiles have been marked for exchange"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror7
+msgctxt "ulanguage.rmain_pieceerror7"
+msgid "Jokerization is not available"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror8
+msgid "Only one jokerization per move"
+msgstr ""
+
+#: ulanguage.rmain_pieceerror9
+msgid "No exchange allowed after jokerization"
+msgstr ""
+
+#: ulanguage.rmain_piecejokerized
+msgid "%s jokerized letter %s"
+msgstr ""
+
+#: ulanguage.rmain_points
+msgid "%d point|%d points"
+msgstr ""
+
+#: ulanguage.rmain_private
+msgid "Kibitzed game has been set to private"
+msgstr ""
+
+#: ulanguage.rmain_reallypass
+msgid "Do you really want to pass?"
+msgstr ""
+
+#: ulanguage.rmain_recommendcambiosecco
+msgid "Computer recommends to use Cambio Secco."
+msgstr ""
+
+#: ulanguage.rmain_reinvite
+msgid "%s reinvites you to a running game."
+msgstr ""
+
+#: ulanguage.rmain_resumef
+msgid "%s wants to resume a stored game. Accept?"
+msgstr ""
+
+#: ulanguage.rmain_savegame
+msgid "Scrabble savegame"
+msgstr ""
+
+#: ulanguage.rmain_sbchallengemode
+msgid "Word check mode: Challenge"
+msgstr ""
+
+#: ulanguage.rmain_sbjokerexchange
+msgid "Placed jokers can be exchanged"
+msgstr ""
+
+#: ulanguage.rmain_sbjokerization
+msgid "Letters can be jokerized"
+msgstr ""
+
+#: ulanguage.rmain_sblettersleft
+msgctxt "ulanguage.rmain_sblettersleft"
+msgid "Letters left"
+msgstr ""
+
+#: ulanguage.rmain_sbnojokerexchange
+msgid "Placed jokers cannot be exchanged"
+msgstr ""
+
+#: ulanguage.rmain_sbnojokerization
+msgctxt "ulanguage.rmain_sbnojokerization"
+msgid "Jokerization is not available"
+msgstr ""
+
+#: ulanguage.rmain_sbpoll
+msgid "Result of last poll (green->yes, red->no)"
+msgstr ""
+
+#: ulanguage.rmain_sbpollmode
+msgid "Word check mode: Poll"
+msgstr ""
+
+#: ulanguage.rmain_sbscore
+msgctxt "ulanguage.rmain_sbscore"
+msgid "Score"
+msgstr ""
+
+#: ulanguage.rmain_sbsettings
+msgid "Game settings"
+msgstr ""
+
+#: ulanguage.rmain_sbstatus
+msgid "Status of game"
+msgstr ""
+
+#: ulanguage.rmain_sbtakebackmode
+msgid "Word check mode: Takeback"
+msgstr ""
+
+#: ulanguage.rmain_sbtimeleft
+msgctxt "ulanguage.rmain_sbtimeleft"
+msgid "Time left"
+msgstr ""
+
+#: ulanguage.rmain_sbtimenolimit
+msgid "no limit"
+msgstr ""
+
+#: ulanguage.rmain_sbtimepergame
+msgid "per game"
+msgstr ""
+
+#: ulanguage.rmain_sbtimepermove
+msgid "per move"
+msgstr ""
+
+#: ulanguage.rmain_startnewgame
+msgid "Do you really want to start a new game?"
+msgstr ""
+
+#: ulanguage.rmain_statsum
+msgid "Accumulated result:"
+msgstr ""
+
+#: ulanguage.rmain_syncdictionary
+msgid "Game is played with dictionary %s. Load it now?"
+msgstr ""
+
+#: ulanguage.rmain_timeleft
+msgid "left"
+msgstr ""
+
+#: ulanguage.rmain_timepenaltymsg
+msgid "One minute has been added to %s time for %d point (%d times left)|One minute has been added to %s time for %d points (%d times left)"
+msgstr ""
+
+#: ulanguage.rmain_unknownmessage
+msgid "Unknown message received:"
+msgstr ""
+
+#: ulanguage.rmain_unknownreceiver
+msgid "Unknown receiver"
+msgstr ""
+
+#: ulanguage.rmain_unknownwords
+msgid "%s is not found in dictionary. Accept anyway?|%s are not found in dictionary. Accept anyway?"
+msgstr ""
+
+#: ulanguage.rmain_unpausef
+msgid "%s would like to resume running game. Accept?"
+msgstr ""
+
+#: ulanguage.rmain_updateletterset
+msgid "Current letter set does not match. Updated from dictionary info?"
+msgstr ""
+
+#: ulanguage.rmain_warncategories
+msgid "Number of categories are different. Synchronzation aborted"
+msgstr ""
+
+#: ulanguage.rmain_warndictionary
+msgid "Dictionaries don't have same names. Still trying to synchronize..."
+msgstr ""
+
+#: ulanguage.rmain_warnrelease
+msgid "You are using different releases: %s<>%s"
+msgstr ""
+
+#: ulanguage.rmain_whisper
+msgid "You are whispering to"
+msgstr ""
+
+#: ulanguage.rmain_wordinvalid
+msgid "Challenged move consists of invalid words. A bonus of %d point was added to %s's result|Challenged move consists of invalid words. A bonus of %d points was added to %s's result"
+msgstr ""
+
+#: ulanguage.rmessages_caption
+msgid "information"
+msgstr ""
+
+#: ulanguage.rmessages_changefont
+msgid "Change font"
+msgstr ""
+
+#: ulanguage.rmessages_clear
+msgid "Clear messages"
+msgstr ""
+
+#: ulanguage.rmessages_copyall
+msgid "Copy all messages"
+msgstr ""
+
+#: ulanguage.rmessage_chat
+msgid "Don't popup Chat"
+msgstr ""
+
+#: ulanguage.rmessage_debug
+msgid "Don't popup Debug"
+msgstr ""
+
+#: ulanguage.rmessage_error
+msgid "Don't popup Errors"
+msgstr ""
+
+#: ulanguage.rmessage_gameresult
+msgid "Don't popup Gameresult"
+msgstr ""
+
+#: ulanguage.rmessage_information
+msgid "Don't popup Informations"
+msgstr ""
+
+#: ulanguage.rmessage_ownmove
+msgid "Don't popup Own-Move"
+msgstr ""
+
+#: ulanguage.rmessage_warning
+msgid "Don't popup Warnings"
+msgstr ""
+
+#: ulanguage.rnetwork_challenge
+msgid "%s challenges last move. Placed words are validated..."
+msgstr ""
+
+#: ulanguage.rnetwork_errorname
+msgid "Please specify a name"
+msgstr ""
+
+#: ulanguage.rnetwork_errorpassword
+msgid "Please specify a password."
+msgstr ""
+
+#: ulanguage.rnetwork_errorserver
+msgid "Please select a server to connect to"
+msgstr ""
+
+#: ulanguage.rnetwort_ownrank
+msgid "Own rank: %s of %s"
+msgstr ""
+
+#: ulanguage.rnetwort_ownrating
+msgid "Own rating"
+msgstr ""
+
+#: ulanguage.rnewgame_caption
+msgctxt "ulanguage.rnewgame_caption"
+msgid "New Game"
+msgstr ""
+
+#: ulanguage.rnewgame_errorhuman
+msgid "At least one human partner should be specified"
+msgstr ""
+
+#: ulanguage.rnewgame_infojokers
+msgid "#Jokers:"
+msgstr ""
+
+#: ulanguage.rnewgame_infopieces
+msgid "#Pieces:"
+msgstr ""
+
+#: ulanguage.rnewgame_inforandoms
+msgid "#Randoms: "
+msgstr ""
+
+#: ulanguage.rnewgame_infoversion
+msgctxt "ulanguage.rnewgame_infoversion"
+msgid "Version:"
+msgstr ""
+
+#: ulanguage.rnewgame_loadconfig
+msgid "Do you want to load %s now?"
+msgstr ""
+
+#: ulanguage.roptions_author
+msgctxt "ulanguage.roptions_author"
+msgid "Author:"
+msgstr ""
+
+#: ulanguage.roptions_changedwarn
+msgid "Settings have been changed. Do you want to save it first?"
+msgstr ""
+
+#: ulanguage.roptions_changenow
+msgid "Settings have been changed. Save now in preset %s?"
+msgstr ""
+
+#: ulanguage.roptions_comment
+msgid "Comment:"
+msgstr ""
+
+#: ulanguage.roptions_date
+msgid "Date:"
+msgstr ""
+
+#: ulanguage.roptions_deletedesign
+msgid "Really delete the design %s?"
+msgstr ""
+
+#: ulanguage.roptions_deletedictionary
+msgid "Really delete the dictionary %s?"
+msgstr ""
+
+#: ulanguage.roptions_deletelang
+msgid "Really delete the localization %s?"
+msgstr ""
+
+#: ulanguage.roptions_deletepreset
+msgid "Really delete the preset %s?"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid0
+msgctxt "ulanguage.roptions_dictionaryid0"
+msgid "File name:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid1
+msgctxt "ulanguage.roptions_dictionaryid1"
+msgid "Author:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid2
+msgctxt "ulanguage.roptions_dictionaryid2"
+msgid "Version:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid3
+msgid "File size:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid4
+msgid "File date:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid5
+msgid "Word count:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid6
+msgid "Used words:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid7
+msgid "Licence:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid8
+msgid "Comments:"
+msgstr ""
+
+#: ulanguage.roptions_dictionaryid9
+msgid "Categories:"
+msgstr ""
+
+#: ulanguage.roptions_downloadproceed
+msgid "Proceed with download of %s?"
+msgstr ""
+
+#: ulanguage.roptions_filename
+msgctxt "ulanguage.roptions_filename"
+msgid "File name:"
+msgstr ""
+
+#: ulanguage.roptions_letters
+msgid "letters"
+msgstr ""
+
+#: ulanguage.roptions_navigatordesign
+msgctxt "ulanguage.roptions_navigatordesign"
+msgid "Design"
+msgstr ""
+
+#: ulanguage.roptions_navigatordic
+msgctxt "ulanguage.roptions_navigatordic"
+msgid "Dictionary"
+msgstr ""
+
+#: ulanguage.roptions_navigatorgame
+msgctxt "ulanguage.roptions_navigatorgame"
+msgid "Game"
+msgstr ""
+
+#: ulanguage.roptions_navigatorlang
+msgctxt "ulanguage.roptions_navigatorlang"
+msgid "Localization"
+msgstr ""
+
+#: ulanguage.roptions_navigatorrules
+msgctxt "ulanguage.roptions_navigatorrules"
+msgid "Rules"
+msgstr ""
+
+#: ulanguage.roptions_no
+msgid "no"
+msgstr ""
+
+#: ulanguage.roptions_nopenalty
+msgid "no penalty"
+msgstr ""
+
+#: ulanguage.roptions_points
+msgctxt "ulanguage.roptions_points"
+msgid "points"
+msgstr ""
+
+#: ulanguage.roptions_update0
+msgid "on each start"
+msgstr ""
+
+#: ulanguage.roptions_update1
+msgid "daily"
+msgstr ""
+
+#: ulanguage.roptions_update2
+msgctxt "ulanguage.roptions_update2"
+msgid "weekly"
+msgstr ""
+
+#: ulanguage.roptions_update3
+msgid "monthly"
+msgstr ""
+
+#: ulanguage.roptions_update4
+msgid "never"
+msgstr ""
+
+#: ulanguage.roptions_yes
+msgid "yes"
+msgstr ""
+
+#: ulanguage.rpoll_caption
+msgctxt "ulanguage.rpoll_caption"
+msgid "Poll"
+msgstr ""
+
+#: ulanguage.rpoll_checkbox
+msgid "auto close after poll"
+msgstr ""
+
+#: ulanguage.rpoll_player1
+msgid "1st player"
+msgstr ""
+
+#: ulanguage.rpoll_player2
+msgid "2nd player"
+msgstr ""
+
+#: ulanguage.rpoll_player3
+msgid "3rd player"
+msgstr ""
+
+#: ulanguage.rpoll_player4
+msgid "4th player"
+msgstr ""
+
+#: ulanguage.rpoll_timeout
+msgid "%d second left before auto close|%d seconds left before auto close"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_doubleletterscore
+msgid "double letter score"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_doublewordscore
+msgid "double word score"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_quadletterscore
+msgid "quad letter score"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_quadwordscore
+msgid "quad word score"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_singleletterscore
+msgid "single letter score"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_tripleletterscore
+msgid "triple letter score"
+msgstr ""
+
+#: ulanguage.rscrabblegrid_triplewordscore
+msgid "triple word score"
+msgstr ""
+
+#: ulanguage.rselectcolor
+msgid "Select color for"
+msgstr ""
+
+#: ulanguage.rstat_averagegame
+msgid "average game result"
+msgstr ""
+
+#: ulanguage.rstat_averagemove
+msgid "average move value"
+msgstr ""
+
+#: ulanguage.rstat_averagetimegame
+msgid "average time per game"
+msgstr ""
+
+#: ulanguage.rstat_averagetimemove
+msgid "average time per move"
+msgstr ""
+
+#: ulanguage.rstat_bestgame
+msgid "best game"
+msgstr ""
+
+#: ulanguage.rstat_bestmove
+msgid "best move"
+msgstr ""
+
+#: ulanguage.rstat_bottomaxis
+msgid "Rating"
+msgstr ""
+
+#: ulanguage.rstat_computercaption
+msgctxt "ulanguage.rstat_computercaption"
+msgid "Computer"
+msgstr ""
+
+#: ulanguage.rstat_gameserver
+msgid "NSA rating"
+msgstr ""
+
+#: ulanguage.rstat_gameservername
+msgid "player name"
+msgstr ""
+
+#: ulanguage.rstat_leftaxis
+msgctxt "ulanguage.rstat_leftaxis"
+msgid "Count"
+msgstr ""
+
+#: ulanguage.rstat_numberofgames
+msgid "number of games"
+msgstr ""
+
+#: ulanguage.rstat_numberofmoves
+msgid "number of moves"
+msgstr ""
+
+#: ulanguage.rstat_owncaption
+msgid "Local player"
+msgstr ""
+
+#: ulanguage.rstat_sumtime
+msgid "overall time on game"
+msgstr ""
+
+#: ulanguage.rupdaterapplication
+msgid "Application"
+msgstr ""
+
+#: ulanguage.rupdaterdesign
+msgid "Designs"
+msgstr ""
+
+#: ulanguage.rupdaterdic
+msgid "Dictionaries"
+msgstr ""
+
+#: ulanguage.rupdaterlocalization
+msgctxt "ulanguage.rupdaterlocalization"
+msgid "Localization"
+msgstr ""
+
+#: ulanguage.rupdater_alluptodata
+msgid "all files are up to date"
+msgstr ""
+
+#: ulanguage.rupdater_downloaderror
+msgid "Error downloading"
+msgstr ""
+
+#: ulanguage.rupdater_downloadfinished
+msgid "Download of %s finished"
+msgstr ""
+
+#: ulanguage.rupdater_downloadrunning
+msgid "Downloading %s ..."
+msgstr ""
+
+#: ulanguage.rupdater_infoerror
+msgid "File has been downloaded but release info is incorrect for %s"
+msgstr ""
+
+#: ulanguage.rupdater_newrelease
+msgid "New release for %s %s found: %s<%s. Download now?"
+msgstr ""
+
+#: ulanguage.rwelcome_next1
+msgctxt "ulanguage.rwelcome_next1"
+msgid "&Next"
+msgstr ""
+
+#: ulanguage.rwelcome_next2
+msgctxt "ulanguage.rwelcome_next2"
+msgid "&Ok"
+msgstr ""
+
+#: ulanguage.rwelcome_step1
+msgid "Please select first your preferred language:"
+msgstr ""
+
+#: ulanguage.rwelcome_step2
+msgid "Please select the dictionary you want to use:"
+msgstr ""
+
+#: ulanguage.rwelcome_step3
+msgid "Select your prefered Scrabble settings (letterset and rules will be applied):"
+msgstr ""
+
+#: ulanguage.rwelcome_step4
+msgid "Your first configuration steps have been done. Please check options for additional settings."
+msgstr ""
+
+#: ulanguage.rwordcheck_ask
+msgid "Takeback"
+msgstr ""
+
+#: ulanguage.rwordcheck_challenge
+msgid "Challenge"
+msgstr ""
+
+#: ulanguage.rwordcheck_poll
+msgctxt "ulanguage.rwordcheck_poll"
+msgid "Poll"
+msgstr ""
+
+#: ulanguage.rwordsearch_missingcharex
+msgid "The character %s is not part of the current letter set."
+msgstr ""
+
+#: ulanguage.rwordsearch_searchresult
+msgid "%d word found|%d words found"
+msgstr ""
+

@@ -1,0 +1,5 @@
+LazarusResources.Add('board','MTL',[
+  'newmtl board'#13#10'Ns 100.0'#13#10'd 1.0'#13#10'illum 2'#13#10'Kd 1.0 1.0 1'
+  +'.0'#13#10'Ka 1.0 1.0 1.0'#13#10'Ks 1.0 1.0 1.0'#13#10'Ke 0.0 0.0 0.0'#13#10
+  +'map_Kd birkwood'
+]);

@@ -1,0 +1,102 @@
+object fmStatistics: TfmStatistics
+  Left = 943
+  Height = 319
+  Top = 655
+  Width = 435
+  Caption = 'Statistics'
+  ClientHeight = 319
+  ClientWidth = 435
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnHide = FormHide
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  LCLVersion = '1.5'
+  object lvStatistics: TListView
+    Left = 0
+    Height = 175
+    Top = 0
+    Width = 435
+    Align = alClient
+    BorderSpacing.InnerBorder = 20
+    Columns = <    
+      item
+        Width = 0
+      end    
+      item
+        Alignment = taRightJustify
+        Width = 100
+      end    
+      item
+        Alignment = taRightJustify
+        Width = 100
+      end>
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+    ViewStyle = vsReport
+  end
+  object Splitter: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 2
+    Top = 175
+    Width = 435
+    Align = alBottom
+    ResizeAnchor = akBottom
+  end
+  object chRating: TChart
+    Left = 0
+    Height = 142
+    Top = 177
+    Width = 435
+    AllowZoom = False
+    AxisList = <    
+      item
+        TickLength = 0
+        AxisPen.Visible = True
+        Marks.Distance = 3
+        Minors = <>
+        Range.Min = 1
+        Range.UseMin = True
+        Title.LabelFont.Orientation = 900
+        Title.Visible = True
+        Title.Caption = 'Count'
+      end    
+      item
+        TickLength = 0
+        Alignment = calBottom
+        Marks.Distance = 3
+        Minors = <>
+        Title.Visible = True
+        Title.Caption = 'Rating'
+      end>
+    BackColor = clDefault
+    Foot.Brush.Color = clBtnFace
+    Foot.Font.Color = clBlue
+    Legend.UseSidebar = False
+    Title.Brush.Color = clBtnFace
+    Title.Font.Color = clBlue
+    Title.Text.Strings = (
+      'Distribution of rating'
+    )
+    Align = alBottom
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+    object Bars: TBarSeries
+      Legend.Visible = False
+      Marks.Distance = 1
+      Marks.Visible = False
+      AxisIndexY = 0
+      BarBrush.Color = clGreen
+    end
+    object Lines: TConstantLine
+      Legend.Visible = False
+      LineStyle = lsVertical
+      Pen.Color = clMaroon
+      Pen.Width = 3
+      Position = 2
+      ZPosition = 1
+    end
+  end
+end
